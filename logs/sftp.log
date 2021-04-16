@@ -1,0 +1,779 @@
+Apr 12 22:29:59 10.71.60.0 tmp98841435-3338 Connection from 10.71.60.0 port 11474 on 74.208.58.238 port 22
+Apr 12 22:29:59 10.71.60.0 tmp98841435-3338 Accepted password for tmp98841435-3338 from 10.71.60.0 port 11474 ssh2
+Apr 12 22:30:00 10.71.60.0 tmp98841435-3338 Starting session: subsystem 'sftp' for tmp98841435-3338 from 10.71.60.0 port 11474 id 0
+Apr 12 22:30:00 10.71.60.0 tmp98841435-3338 session opened for local user tmp98841435-3338 from [10.71.60.0]
+Apr 12 22:30:38 10.71.60.0 tmp98841435-2470 Connection from 10.71.60.0 port 34456 on 74.208.58.238 port 22
+Apr 12 22:30:39 10.71.60.0 tmp98841435-2470 Accepted password for tmp98841435-2470 from 10.71.60.0 port 34456 ssh2
+Apr 12 22:31:43 10.71.60.0 tmp98841435-3338 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 22:31:44 10.71.60.0 tmp98841435-3338 close "/index.html" bytes read 0 written 4109
+Apr 12 22:31:44 10.71.60.0 tmp98841435-3338 [10.71.60.0|put|1|4109|0|0|0|2f696e6465782e68746d6c|]
+Apr 12 22:34:09 10.71.60.0 u98841435 Connection from 10.71.60.0 port 50538 on 74.208.58.238 port 22
+Apr 12 22:34:14 10.71.60.0 u98841435 Accepted password for u98841435 from 10.71.60.0 port 50538 ssh2
+Apr 12 22:34:14 10.71.60.0 u98841435 Starting session: subsystem 'sftp' for u98841435 from 10.71.60.0 port 50538 id 0
+Apr 12 22:34:14 10.71.60.0 u98841435 session opened for local user u98841435 from [10.71.60.0]
+Apr 12 22:34:21 10.71.60.0 u98841435 remove name "/index.html"
+Apr 12 22:34:21 10.71.60.0 u98841435 [10.71.60.0|rm|0|0|0|0|0|2f696e6465782e68746d6c|]
+Apr 12 22:34:40 10.71.60.0 u98841435 sent status No such file
+Apr 12 22:34:40 10.71.60.0 u98841435 sent status No such file
+Apr 12 22:34:40 10.71.60.0 u98841435 mkdir name "/php" mode 0777
+Apr 12 22:34:40 10.71.60.0 u98841435 [10.71.60.0|mkdir|0|0|511|0|0|2f706870|]
+Apr 12 22:34:40 10.71.60.0 u98841435 open "/php/contact.php" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:40 10.71.60.0 u98841435 close "/php/contact.php" bytes read 0 written 3426
+Apr 12 22:34:40 10.71.60.0 u98841435 [10.71.60.0|put|0|3426|0|0|0|2f7068702f636f6e746163742e706870|]
+Apr 12 22:34:40 10.71.60.0 u98841435 set "/php/contact.php" modtime 20210412-20:00:47
+Apr 12 22:34:40 10.71.60.0 u98841435 open "/about.html" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:41 10.71.60.0 u98841435 close "/about.html" bytes read 0 written 6875
+Apr 12 22:34:41 10.71.60.0 u98841435 [10.71.60.0|put|1|6875|0|0|0|2f61626f75742e68746d6c|]
+Apr 12 22:34:41 10.71.60.0 u98841435 set "/about.html" modtime 20210412-22:24:21
+Apr 12 22:34:41 10.71.60.0 u98841435 open "/contact.html" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:41 10.71.60.0 u98841435 close "/contact.html" bytes read 0 written 4103
+Apr 12 22:34:41 10.71.60.0 u98841435 [10.71.60.0|put|0|4103|0|0|0|2f636f6e746163742e68746d6c|]
+Apr 12 22:34:41 10.71.60.0 u98841435 set "/contact.html" modtime 20210412-20:29:22
+Apr 12 22:34:41 10.71.60.0 u98841435 open "/index.html" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:41 10.71.60.0 u98841435 close "/index.html" bytes read 0 written 4109
+Apr 12 22:34:41 10.71.60.0 u98841435 [10.71.60.0|put|0|4109|0|0|0|2f696e6465782e68746d6c|]
+Apr 12 22:34:41 10.71.60.0 u98841435 set "/index.html" modtime 20210412-22:26:52
+Apr 12 22:34:41 10.71.60.0 u98841435 sent status No such file
+Apr 12 22:34:41 10.71.60.0 u98841435 sent status No such file
+Apr 12 22:34:41 10.71.60.0 u98841435 mkdir name "/css" mode 0777
+Apr 12 22:34:41 10.71.60.0 u98841435 [10.71.60.0|mkdir|0|0|511|0|0|2f637373|]
+Apr 12 22:34:41 10.71.60.0 u98841435 open "/css/animate.min.css" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:41 10.71.60.0 u98841435 close "/css/animate.min.css" bytes read 0 written 55522
+Apr 12 22:34:41 10.71.60.0 u98841435 [10.71.60.0|put|0|55522|0|0|0|2f6373732f616e696d6174652e6d696e2e637373|]
+Apr 12 22:34:41 10.71.60.0 u98841435 set "/css/animate.min.css" modtime 20210412-20:00:47
+Apr 12 22:34:41 10.71.60.0 u98841435 open "/css/bootstrap.min.css.filepart" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 22:34:41 10.71.60.0 u98841435 close "/css/bootstrap.min.css.filepart" bytes read 0 written 122540
+Apr 12 22:34:41 10.71.60.0 u98841435 [10.71.60.0|put|0|122540|0|0|0|2f6373732f626f6f7473747261702e6d696e2e6373732e66696c6570617274|]
+Apr 12 22:34:42 10.71.60.0 u98841435 rename old "/css/bootstrap.min.css.filepart" new "/css/bootstrap.min.css"
+Apr 12 22:34:42 10.71.60.0 u98841435 [10.71.60.0|rename|0|0|0|0|0|2f6373732f626f6f7473747261702e6d696e2e6373732e66696c6570617274|2f6373732f626f6f7473747261702e6d696e2e637373]
+Apr 12 22:34:42 10.71.60.0 u98841435 set "/css/bootstrap.min.css" modtime 20210412-20:00:47
+Apr 12 22:34:42 10.71.60.0 u98841435 open "/css/jquery.fancybox.css" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:42 10.71.60.0 u98841435 close "/css/jquery.fancybox.css" bytes read 0 written 4955
+Apr 12 22:34:42 10.71.60.0 u98841435 [10.71.60.0|put|0|4955|0|0|0|2f6373732f6a71756572792e66616e6379626f782e637373|]
+Apr 12 22:34:42 10.71.60.0 u98841435 set "/css/jquery.fancybox.css" modtime 20210412-20:00:47
+Apr 12 22:34:42 10.71.60.0 u98841435 open "/css/main.css" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:42 10.71.60.0 u98841435 close "/css/main.css" bytes read 0 written 14817
+Apr 12 22:34:42 10.71.60.0 u98841435 [10.71.60.0|put|0|14817|0|0|0|2f6373732f6d61696e2e637373|]
+Apr 12 22:34:42 10.71.60.0 u98841435 set "/css/main.css" modtime 20210412-20:00:47
+Apr 12 22:34:42 10.71.60.0 u98841435 open "/css/responsive.css" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:42 10.71.60.0 u98841435 close "/css/responsive.css" bytes read 0 written 2420
+Apr 12 22:34:42 10.71.60.0 u98841435 [10.71.60.0|put|0|2420|0|0|0|2f6373732f726573706f6e736976652e637373|]
+Apr 12 22:34:42 10.71.60.0 u98841435 set "/css/responsive.css" modtime 20210412-20:00:47
+Apr 12 22:34:42 10.71.60.0 u98841435 sent status No such file
+Apr 12 22:34:42 10.71.60.0 u98841435 sent status No such file
+Apr 12 22:34:42 10.71.60.0 u98841435 mkdir name "/fonts" mode 0777
+Apr 12 22:34:42 10.71.60.0 u98841435 [10.71.60.0|mkdir|0|0|511|0|0|2f666f6e7473|]
+Apr 12 22:34:42 10.71.60.0 u98841435 open "/fonts/elegant-theme-line.eot" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:42 10.71.60.0 u98841435 close "/fonts/elegant-theme-line.eot" bytes read 0 written 47260
+Apr 12 22:34:42 10.71.60.0 u98841435 [10.71.60.0|put|0|47260|0|0|0|2f666f6e74732f656c6567616e742d7468656d652d6c696e652e656f74|]
+Apr 12 22:34:42 10.71.60.0 u98841435 set "/fonts/elegant-theme-line.eot" modtime 20210412-20:00:46
+Apr 12 22:34:42 10.71.60.0 u98841435 open "/fonts/elegant-theme-line.svg.filepart" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 22:34:43 10.71.60.0 u98841435 close "/fonts/elegant-theme-line.svg.filepart" bytes read 0 written 162661
+Apr 12 22:34:43 10.71.60.0 u98841435 [10.71.60.0|put|1|162661|0|0|0|2f666f6e74732f656c6567616e742d7468656d652d6c696e652e7376672e66696c6570617274|]
+Apr 12 22:34:44 10.71.60.0 u98841435 rename old "/fonts/elegant-theme-line.svg.filepart" new "/fonts/elegant-theme-line.svg"
+Apr 12 22:34:44 10.71.60.0 u98841435 [10.71.60.0|rename|0|0|0|0|0|2f666f6e74732f656c6567616e742d7468656d652d6c696e652e7376672e66696c6570617274|2f666f6e74732f656c6567616e742d7468656d652d6c696e652e737667]
+Apr 12 22:34:44 10.71.60.0 u98841435 set "/fonts/elegant-theme-line.svg" modtime 20210412-20:00:46
+Apr 12 22:34:44 10.71.60.0 u98841435 open "/fonts/elegant-theme-line.ttf" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:44 10.71.60.0 u98841435 close "/fonts/elegant-theme-line.ttf" bytes read 0 written 47052
+Apr 12 22:34:44 10.71.60.0 u98841435 [10.71.60.0|put|0|47052|0|0|0|2f666f6e74732f656c6567616e742d7468656d652d6c696e652e747466|]
+Apr 12 22:34:44 10.71.60.0 u98841435 set "/fonts/elegant-theme-line.ttf" modtime 20210412-20:00:46
+Apr 12 22:34:44 10.71.60.0 u98841435 open "/fonts/elegant-theme-line.woff" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:44 10.71.60.0 u98841435 close "/fonts/elegant-theme-line.woff" bytes read 0 written 47128
+Apr 12 22:34:44 10.71.60.0 u98841435 [10.71.60.0|put|0|47128|0|0|0|2f666f6e74732f656c6567616e742d7468656d652d6c696e652e776f6666|]
+Apr 12 22:34:44 10.71.60.0 u98841435 set "/fonts/elegant-theme-line.woff" modtime 20210412-20:00:46
+Apr 12 22:34:44 10.71.60.0 u98841435 open "/fonts/flexslider-icon.eot" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:44 10.71.60.0 u98841435 close "/fonts/flexslider-icon.eot" bytes read 0 written 2082
+Apr 12 22:34:44 10.71.60.0 u98841435 [10.71.60.0|put|0|2082|0|0|0|2f666f6e74732f666c6578736c696465722d69636f6e2e656f74|]
+Apr 12 22:34:44 10.71.60.0 u98841435 set "/fonts/flexslider-icon.eot" modtime 20210412-20:00:46
+Apr 12 22:34:44 10.71.60.0 u98841435 open "/fonts/flexslider-icon.svg" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:44 10.71.60.0 u98841435 close "/fonts/flexslider-icon.svg" bytes read 0 written 2334
+Apr 12 22:34:44 10.71.60.0 u98841435 [10.71.60.0|put|0|2334|0|0|0|2f666f6e74732f666c6578736c696465722d69636f6e2e737667|]
+Apr 12 22:34:44 10.71.60.0 u98841435 set "/fonts/flexslider-icon.svg" modtime 20210412-20:00:46
+Apr 12 22:34:44 10.71.60.0 u98841435 open "/fonts/flexslider-icon.ttf" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:44 10.71.60.0 u98841435 close "/fonts/flexslider-icon.ttf" bytes read 0 written 1892
+Apr 12 22:34:44 10.71.60.0 u98841435 [10.71.60.0|put|0|1892|0|0|0|2f666f6e74732f666c6578736c696465722d69636f6e2e747466|]
+Apr 12 22:34:44 10.71.60.0 u98841435 set "/fonts/flexslider-icon.ttf" modtime 20210412-20:00:46
+Apr 12 22:34:44 10.71.60.0 u98841435 open "/fonts/flexslider-icon.woff" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:44 10.71.60.0 u98841435 close "/fonts/flexslider-icon.woff" bytes read 0 written 1268
+Apr 12 22:34:44 10.71.60.0 u98841435 [10.71.60.0|put|0|1268|0|0|0|2f666f6e74732f666c6578736c696465722d69636f6e2e776f6666|]
+Apr 12 22:34:44 10.71.60.0 u98841435 set "/fonts/flexslider-icon.woff" modtime 20210412-20:00:46
+Apr 12 22:34:45 10.71.60.0 u98841435 open "/fonts/glyphicons-halflings-regular.eot" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:45 10.71.60.0 u98841435 close "/fonts/glyphicons-halflings-regular.eot" bytes read 0 written 20127
+Apr 12 22:34:45 10.71.60.0 u98841435 [10.71.60.0|put|0|20127|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e656f74|]
+Apr 12 22:34:45 10.71.60.0 u98841435 set "/fonts/glyphicons-halflings-regular.eot" modtime 20210412-20:00:46
+Apr 12 22:34:45 10.71.60.0 u98841435 open "/fonts/glyphicons-halflings-regular.svg.filepart" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 22:34:45 10.71.60.0 u98841435 close "/fonts/glyphicons-halflings-regular.svg.filepart" bytes read 0 written 108738
+Apr 12 22:34:45 10.71.60.0 u98841435 [10.71.60.0|put|0|108738|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e7376672e66696c6570617274|]
+Apr 12 22:34:45 10.71.60.0 u98841435 rename old "/fonts/glyphicons-halflings-regular.svg.filepart" new "/fonts/glyphicons-halflings-regular.svg"
+Apr 12 22:34:45 10.71.60.0 u98841435 [10.71.60.0|rename|0|0|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e7376672e66696c6570617274|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e737667]
+Apr 12 22:34:45 10.71.60.0 u98841435 set "/fonts/glyphicons-halflings-regular.svg" modtime 20210412-20:00:46
+Apr 12 22:34:45 10.71.60.0 u98841435 open "/fonts/glyphicons-halflings-regular.ttf" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:45 10.71.60.0 u98841435 close "/fonts/glyphicons-halflings-regular.ttf" bytes read 0 written 45404
+Apr 12 22:34:45 10.71.60.0 u98841435 [10.71.60.0|put|0|45404|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e747466|]
+Apr 12 22:34:45 10.71.60.0 u98841435 set "/fonts/glyphicons-halflings-regular.ttf" modtime 20210412-20:00:46
+Apr 12 22:34:45 10.71.60.0 u98841435 open "/fonts/glyphicons-halflings-regular.woff" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:45 10.71.60.0 u98841435 close "/fonts/glyphicons-halflings-regular.woff" bytes read 0 written 23424
+Apr 12 22:34:45 10.71.60.0 u98841435 [10.71.60.0|put|0|23424|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e776f6666|]
+Apr 12 22:34:45 10.71.60.0 u98841435 set "/fonts/glyphicons-halflings-regular.woff" modtime 20210412-20:00:46
+Apr 12 22:34:45 10.71.60.0 u98841435 open "/fonts/glyphicons-halflings-regular.woff2" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:45 10.71.60.0 u98841435 close "/fonts/glyphicons-halflings-regular.woff2" bytes read 0 written 18028
+Apr 12 22:34:45 10.71.60.0 u98841435 [10.71.60.0|put|0|18028|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e776f666632|]
+Apr 12 22:34:45 10.71.60.0 u98841435 set "/fonts/glyphicons-halflings-regular.woff2" modtime 20210412-20:00:46
+Apr 12 22:34:45 10.71.60.0 u98841435 sent status No such file
+Apr 12 22:34:45 10.71.60.0 u98841435 sent status No such file
+Apr 12 22:34:46 10.71.60.0 u98841435 mkdir name "/images" mode 0777
+Apr 12 22:34:46 10.71.60.0 u98841435 [10.71.60.0|mkdir|0|0|511|0|0|2f696d61676573|]
+Apr 12 22:34:46 10.71.60.0 u98841435 open "/images/blank.gif" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:46 10.71.60.0 u98841435 close "/images/blank.gif" bytes read 0 written 43
+Apr 12 22:34:46 10.71.60.0 u98841435 [10.71.60.0|put|0|43|0|0|0|2f696d616765732f626c616e6b2e676966|]
+Apr 12 22:34:46 10.71.60.0 u98841435 set "/images/blank.gif" modtime 20210412-20:00:46
+Apr 12 22:34:46 10.71.60.0 u98841435 open "/images/fancybox_loading.gif" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:46 10.71.60.0 u98841435 close "/images/fancybox_loading.gif" bytes read 0 written 6567
+Apr 12 22:34:46 10.71.60.0 u98841435 [10.71.60.0|put|0|6567|0|0|0|2f696d616765732f66616e6379626f785f6c6f6164696e672e676966|]
+Apr 12 22:34:46 10.71.60.0 u98841435 set "/images/fancybox_loading.gif" modtime 20210412-20:00:47
+Apr 12 22:34:46 10.71.60.0 u98841435 open "/images/fancybox_loading@2x.gif" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:46 10.71.60.0 u98841435 close "/images/fancybox_loading@2x.gif" bytes read 0 written 13984
+Apr 12 22:34:46 10.71.60.0 u98841435 [10.71.60.0|put|0|13984|0|0|0|2f696d616765732f66616e6379626f785f6c6f6164696e674032782e676966|]
+Apr 12 22:34:46 10.71.60.0 u98841435 set "/images/fancybox_loading@2x.gif" modtime 20210412-20:00:47
+Apr 12 22:34:46 10.71.60.0 u98841435 open "/images/fancybox_overlay.png" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:46 10.71.60.0 u98841435 close "/images/fancybox_overlay.png" bytes read 0 written 1003
+Apr 12 22:34:46 10.71.60.0 u98841435 [10.71.60.0|put|0|1003|0|0|0|2f696d616765732f66616e6379626f785f6f7665726c61792e706e67|]
+Apr 12 22:34:46 10.71.60.0 u98841435 set "/images/fancybox_overlay.png" modtime 20210412-20:00:47
+Apr 12 22:34:46 10.71.60.0 u98841435 open "/images/fancybox_sprite.png" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:46 10.71.60.0 u98841435 close "/images/fancybox_sprite.png" bytes read 0 written 1362
+Apr 12 22:34:46 10.71.60.0 u98841435 [10.71.60.0|put|0|1362|0|0|0|2f696d616765732f66616e6379626f785f7370726974652e706e67|]
+Apr 12 22:34:46 10.71.60.0 u98841435 set "/images/fancybox_sprite.png" modtime 20210412-20:00:47
+Apr 12 22:34:46 10.71.60.0 u98841435 open "/images/fancybox_sprite@2x.png" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:46 10.71.60.0 u98841435 close "/images/fancybox_sprite@2x.png" bytes read 0 written 6553
+Apr 12 22:34:46 10.71.60.0 u98841435 [10.71.60.0|put|0|6553|0|0|0|2f696d616765732f66616e6379626f785f7370726974654032782e706e67|]
+Apr 12 22:34:46 10.71.60.0 u98841435 set "/images/fancybox_sprite@2x.png" modtime 20210412-20:00:47
+Apr 12 22:34:47 10.71.60.0 u98841435 open "/images/profile-pic.jpg.filepart" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 22:34:48 10.71.60.0 u98841435 close "/images/profile-pic.jpg.filepart" bytes read 0 written 1042968
+Apr 12 22:34:48 10.71.60.0 u98841435 [10.71.60.0|put|1|1042968|0|0|0|2f696d616765732f70726f66696c652d7069632e6a70672e66696c6570617274|]
+Apr 12 22:34:48 10.71.60.0 u98841435 rename old "/images/profile-pic.jpg.filepart" new "/images/profile-pic.jpg"
+Apr 12 22:34:48 10.71.60.0 u98841435 [10.71.60.0|rename|0|0|0|0|0|2f696d616765732f70726f66696c652d7069632e6a70672e66696c6570617274|2f696d616765732f70726f66696c652d7069632e6a7067]
+Apr 12 22:34:48 10.71.60.0 u98841435 set "/images/profile-pic.jpg" modtime 20210412-20:32:19
+Apr 12 22:34:48 10.71.60.0 u98841435 open "/images/profile-pic2.jpg.filepart" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 22:34:48 10.71.60.0 u98841435 close "/images/profile-pic2.jpg.filepart" bytes read 0 written 152712
+Apr 12 22:34:48 10.71.60.0 u98841435 [10.71.60.0|put|0|152712|0|0|0|2f696d616765732f70726f66696c652d706963322e6a70672e66696c6570617274|]
+Apr 12 22:34:48 10.71.60.0 u98841435 rename old "/images/profile-pic2.jpg.filepart" new "/images/profile-pic2.jpg"
+Apr 12 22:34:48 10.71.60.0 u98841435 [10.71.60.0|rename|0|0|0|0|0|2f696d616765732f70726f66696c652d706963322e6a70672e66696c6570617274|2f696d616765732f70726f66696c652d706963322e6a7067]
+Apr 12 22:34:48 10.71.60.0 u98841435 set "/images/profile-pic2.jpg" modtime 20210412-20:33:39
+Apr 12 22:34:48 10.71.60.0 u98841435 open "/images/profile-pic3.jpg.filepart" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 22:34:50 10.71.60.0 u98841435 close "/images/profile-pic3.jpg.filepart" bytes read 0 written 2007534
+Apr 12 22:34:50 10.71.60.0 u98841435 [10.71.60.0|put|2|2007534|0|0|0|2f696d616765732f70726f66696c652d706963332e6a70672e66696c6570617274|]
+Apr 12 22:34:50 10.71.60.0 u98841435 rename old "/images/profile-pic3.jpg.filepart" new "/images/profile-pic3.jpg"
+Apr 12 22:34:50 10.71.60.0 u98841435 [10.71.60.0|rename|0|0|0|0|0|2f696d616765732f70726f66696c652d706963332e6a70672e66696c6570617274|2f696d616765732f70726f66696c652d706963332e6a7067]
+Apr 12 22:34:50 10.71.60.0 u98841435 set "/images/profile-pic3.jpg" modtime 20210412-20:39:26
+Apr 12 22:34:51 10.71.60.0 u98841435 open "/images/PXL_20210211_170946362.PORTRAIT.jpg.filepart" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 22:34:54 10.71.60.0 u98841435 close "/images/PXL_20210211_170946362.PORTRAIT.jpg.filepart" bytes read 0 written 3481083
+Apr 12 22:34:54 10.71.60.0 u98841435 [10.71.60.0|put|3|3481083|0|0|0|2f696d616765732f50584c5f32303231303231315f3137303934363336322e504f5254524149542e6a70672e66696c6570617274|]
+Apr 12 22:34:54 10.71.60.0 u98841435 rename old "/images/PXL_20210211_170946362.PORTRAIT.jpg.filepart" new "/images/PXL_20210211_170946362.PORTRAIT.jpg"
+Apr 12 22:34:54 10.71.60.0 u98841435 [10.71.60.0|rename|0|0|0|0|0|2f696d616765732f50584c5f32303231303231315f3137303934363336322e504f5254524149542e6a70672e66696c6570617274|2f696d616765732f50584c5f32303231303231315f3137303934363336322e504f5254524149542e6a7067]
+Apr 12 22:34:54 10.71.60.0 u98841435 set "/images/PXL_20210211_170946362.PORTRAIT.jpg" modtime 20210412-20:38:53
+Apr 12 22:34:54 10.71.60.0 u98841435 sent status No such file
+Apr 12 22:34:54 10.71.60.0 u98841435 sent status No such file
+Apr 12 22:34:55 10.71.60.0 u98841435 mkdir name "/js" mode 0777
+Apr 12 22:34:55 10.71.60.0 u98841435 [10.71.60.0|mkdir|0|0|511|0|0|2f6a73|]
+Apr 12 22:34:55 10.71.60.0 u98841435 open "/js/bootstrap.min.js" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:55 10.71.60.0 u98841435 close "/js/bootstrap.min.js" bytes read 0 written 36816
+Apr 12 22:34:55 10.71.60.0 u98841435 [10.71.60.0|put|0|36816|0|0|0|2f6a732f626f6f7473747261702e6d696e2e6a73|]
+Apr 12 22:34:55 10.71.60.0 u98841435 set "/js/bootstrap.min.js" modtime 20210412-20:00:47
+Apr 12 22:34:55 10.71.60.0 u98841435 open "/js/jquery.contact.js" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:55 10.71.60.0 u98841435 close "/js/jquery.contact.js" bytes read 0 written 780
+Apr 12 22:34:55 10.71.60.0 u98841435 [10.71.60.0|put|0|780|0|0|0|2f6a732f6a71756572792e636f6e746163742e6a73|]
+Apr 12 22:34:55 10.71.60.0 u98841435 set "/js/jquery.contact.js" modtime 20210412-20:00:47
+Apr 12 22:34:55 10.71.60.0 u98841435 open "/js/jquery.fancybox.pack.js" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:55 10.71.60.0 u98841435 close "/js/jquery.fancybox.pack.js" bytes read 0 written 23135
+Apr 12 22:34:55 10.71.60.0 u98841435 [10.71.60.0|put|0|23135|0|0|0|2f6a732f6a71756572792e66616e6379626f782e7061636b2e6a73|]
+Apr 12 22:34:55 10.71.60.0 u98841435 set "/js/jquery.fancybox.pack.js" modtime 20210412-20:00:47
+Apr 12 22:34:55 10.71.60.0 u98841435 open "/js/jquery.min.js" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:55 10.71.60.0 u98841435 close "/js/jquery.min.js" bytes read 0 written 96661
+Apr 12 22:34:55 10.71.60.0 u98841435 [10.71.60.0|put|0|96661|0|0|0|2f6a732f6a71756572792e6d696e2e6a73|]
+Apr 12 22:34:55 10.71.60.0 u98841435 set "/js/jquery.min.js" modtime 20210412-20:00:47
+Apr 12 22:34:55 10.71.60.0 u98841435 open "/js/jquery.waypoints.min.js" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:55 10.71.60.0 u98841435 close "/js/jquery.waypoints.min.js" bytes read 0 written 8787
+Apr 12 22:34:55 10.71.60.0 u98841435 [10.71.60.0|put|0|8787|0|0|0|2f6a732f6a71756572792e776179706f696e74732e6d696e2e6a73|]
+Apr 12 22:34:55 10.71.60.0 u98841435 set "/js/jquery.waypoints.min.js" modtime 20210412-20:00:47
+Apr 12 22:34:55 10.71.60.0 u98841435 open "/js/main.js" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:55 10.71.60.0 u98841435 close "/js/main.js" bytes read 0 written 1513
+Apr 12 22:34:55 10.71.60.0 u98841435 [10.71.60.0|put|0|1513|0|0|0|2f6a732f6d61696e2e6a73|]
+Apr 12 22:34:55 10.71.60.0 u98841435 set "/js/main.js" modtime 20210412-20:00:47
+Apr 12 22:34:56 10.71.60.0 u98841435 open "/js/modernizr.js" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:56 10.71.60.0 u98841435 close "/js/modernizr.js" bytes read 0 written 51351
+Apr 12 22:34:56 10.71.60.0 u98841435 [10.71.60.0|put|0|51351|0|0|0|2f6a732f6d6f6465726e697a722e6a73|]
+Apr 12 22:34:56 10.71.60.0 u98841435 set "/js/modernizr.js" modtime 20210412-20:00:47
+Apr 12 22:34:56 10.71.60.0 u98841435 open "/js/retina.min.js" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:34:56 10.71.60.0 u98841435 close "/js/retina.min.js" bytes read 0 written 2575
+Apr 12 22:34:56 10.71.60.0 u98841435 [10.71.60.0|put|0|2575|0|0|0|2f6a732f726574696e612e6d696e2e6a73|]
+Apr 12 22:34:56 10.71.60.0 u98841435 set "/js/retina.min.js" modtime 20210412-20:00:47
+Apr 12 22:37:17 10.71.60.0 u98841435 open "/about.html" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 22:37:17 10.71.60.0 u98841435 sent status Failure
+Apr 12 22:37:20 10.71.60.0 u98841435 open "/about.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 22:37:20 10.71.60.0 u98841435 close "/about.html" bytes read 0 written 6875
+Apr 12 22:37:20 10.71.60.0 u98841435 [10.71.60.0|put|0|6875|0|0|0|2f61626f75742e68746d6c|]
+Apr 12 22:37:20 10.71.60.0 u98841435 set "/about.html" modtime 20210412-22:24:21
+Apr 12 22:37:20 10.71.60.0 u98841435 open "/contact.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 22:37:20 10.71.60.0 u98841435 close "/contact.html" bytes read 0 written 4077
+Apr 12 22:37:20 10.71.60.0 u98841435 [10.71.60.0|put|0|4077|0|0|0|2f636f6e746163742e68746d6c|]
+Apr 12 22:37:20 10.71.60.0 u98841435 set "/contact.html" modtime 20210412-22:36:50
+Apr 12 22:37:20 10.71.60.0 u98841435 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 22:37:20 10.71.60.0 u98841435 close "/index.html" bytes read 0 written 4107
+Apr 12 22:37:20 10.71.60.0 u98841435 [10.71.60.0|put|0|4107|0|0|0|2f696e6465782e68746d6c|]
+Apr 12 22:37:20 10.71.60.0 u98841435 set "/index.html" modtime 20210412-22:37:08
+Apr 12 23:34:45 10.71.60.0 tmp98841435-3338 session closed for local user tmp98841435-3338 from [10.71.60.0]
+Apr 12 23:34:45 10.71.60.0 tmp98841435-3338 Connection closed by 10.71.60.0 port 11474
+Apr 12 23:34:45 10.71.60.0 tmp98841435-2470 Connection closed by 10.71.60.0 port 34456
+Apr 12 23:37:40 10.71.60.0 u98841435 session closed for local user u98841435 from [10.71.60.0]
+Apr 12 23:42:02 10.71.60.0 u98841435 Connection from 10.71.60.0 port 27268 on 74.208.58.238 port 22
+Apr 12 23:42:02 10.71.60.0 u98841435 Accepted password for u98841435 from 10.71.60.0 port 27268 ssh2
+Apr 12 23:42:02 10.71.60.0 u98841435 Starting session: subsystem 'sftp' for u98841435 from 10.71.60.0 port 27268 id 0
+Apr 12 23:42:02 10.71.60.0 u98841435 session opened for local user u98841435 from [10.71.60.0]
+Apr 12 23:45:08 10.71.60.0 u98841435 open "/about.html" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 23:45:08 10.71.60.0 u98841435 sent status Failure
+Apr 12 23:45:12 10.71.60.0 u98841435 open "/about.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 23:45:12 10.71.60.0 u98841435 close "/about.html" bytes read 0 written 6878
+Apr 12 23:45:12 10.71.60.0 u98841435 [10.71.60.0|put|0|6878|0|0|0|2f61626f75742e68746d6c|]
+Apr 12 23:45:12 10.71.60.0 u98841435 set "/about.html" modtime 20210412-23:43:16
+Apr 12 23:45:12 10.71.60.0 u98841435 open "/contact.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 23:45:12 10.71.60.0 u98841435 close "/contact.html" bytes read 0 written 4077
+Apr 12 23:45:12 10.71.60.0 u98841435 [10.71.60.0|put|0|4077|0|0|0|2f636f6e746163742e68746d6c|]
+Apr 12 23:45:12 10.71.60.0 u98841435 set "/contact.html" modtime 20210412-22:36:50
+Apr 12 23:45:12 10.71.60.0 u98841435 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 23:45:12 10.71.60.0 u98841435 close "/index.html" bytes read 0 written 4119
+Apr 12 23:45:12 10.71.60.0 u98841435 [10.71.60.0|put|0|4119|0|0|0|2f696e6465782e68746d6c|]
+Apr 12 23:45:12 10.71.60.0 u98841435 set "/index.html" modtime 20210412-23:42:23
+Apr 12 23:45:12 10.71.60.0 u98841435 open "/php/contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 23:45:12 10.71.60.0 u98841435 close "/php/contact.php" bytes read 0 written 3427
+Apr 12 23:45:12 10.71.60.0 u98841435 [10.71.60.0|put|0|3427|0|0|0|2f7068702f636f6e746163742e706870|]
+Apr 12 23:45:12 10.71.60.0 u98841435 set "/php/contact.php" modtime 20210412-23:44:44
+Apr 12 23:47:42 10.71.60.0 u98841435 open "/contact.html" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 23:47:42 10.71.60.0 u98841435 sent status Failure
+Apr 12 23:47:44 10.71.60.0 u98841435 open "/contact.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 23:47:45 10.71.60.0 u98841435 close "/contact.html" bytes read 0 written 4060
+Apr 12 23:47:45 10.71.60.0 u98841435 [10.71.60.0|put|1|4060|0|0|0|2f636f6e746163742e68746d6c|]
+Apr 12 23:47:45 10.71.60.0 u98841435 set "/contact.html" modtime 20210412-23:46:51
+Apr 12 23:47:45 10.71.60.0 u98841435 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 23:47:45 10.71.60.0 u98841435 close "/index.html" bytes read 0 written 4119
+Apr 12 23:47:45 10.71.60.0 u98841435 [10.71.60.0|put|0|4119|0|0|0|2f696e6465782e68746d6c|]
+Apr 12 23:47:46 10.71.60.0 u98841435 set "/index.html" modtime 20210412-23:42:23
+Apr 12 23:47:46 10.71.60.0 u98841435 open "/php/contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 23:47:46 10.71.60.0 u98841435 close "/php/contact.php" bytes read 0 written 3448
+Apr 12 23:47:46 10.71.60.0 u98841435 [10.71.60.0|put|0|3448|0|0|0|2f7068702f636f6e746163742e706870|]
+Apr 12 23:47:46 10.71.60.0 u98841435 set "/php/contact.php" modtime 20210412-23:47:06
+Apr 12 23:47:47 10.71.60.0 u98841435 open "/about.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 23:47:47 10.71.60.0 u98841435 close "/about.html" bytes read 0 written 6878
+Apr 12 23:47:47 10.71.60.0 u98841435 [10.71.60.0|put|0|6878|0|0|0|2f61626f75742e68746d6c|]
+Apr 12 23:47:47 10.71.60.0 u98841435 set "/about.html" modtime 20210412-23:43:16
+Apr 12 23:48:42 10.71.60.0 u98841435 open "/contact.html" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 12 23:48:42 10.71.60.0 u98841435 sent status Failure
+Apr 12 23:48:45 10.71.60.0 u98841435 open "/contact.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 23:48:45 10.71.60.0 u98841435 close "/contact.html" bytes read 0 written 4036
+Apr 12 23:48:45 10.71.60.0 u98841435 [10.71.60.0|put|0|4036|0|0|0|2f636f6e746163742e68746d6c|]
+Apr 12 23:48:45 10.71.60.0 u98841435 set "/contact.html" modtime 20210412-23:48:37
+Apr 12 23:48:46 10.71.60.0 u98841435 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 23:48:46 10.71.60.0 u98841435 close "/index.html" bytes read 0 written 4119
+Apr 12 23:48:46 10.71.60.0 u98841435 [10.71.60.0|put|0|4119|0|0|0|2f696e6465782e68746d6c|]
+Apr 12 23:48:46 10.71.60.0 u98841435 set "/index.html" modtime 20210412-23:42:23
+Apr 12 23:48:47 10.71.60.0 u98841435 open "/php/contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 23:48:47 10.71.60.0 u98841435 close "/php/contact.php" bytes read 0 written 3448
+Apr 12 23:48:47 10.71.60.0 u98841435 [10.71.60.0|put|0|3448|0|0|0|2f7068702f636f6e746163742e706870|]
+Apr 12 23:48:47 10.71.60.0 u98841435 set "/php/contact.php" modtime 20210412-23:47:06
+Apr 12 23:48:47 10.71.60.0 u98841435 open "/about.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 12 23:48:47 10.71.60.0 u98841435 close "/about.html" bytes read 0 written 6878
+Apr 12 23:48:47 10.71.60.0 u98841435 [10.71.60.0|put|0|6878|0|0|0|2f61626f75742e68746d6c|]
+Apr 12 23:48:48 10.71.60.0 u98841435 set "/about.html" modtime 20210412-23:43:16
+Apr 12 23:50:40 10.71.60.0 u98841435 session closed for local user u98841435 from [10.71.60.0]
+Apr 12 23:50:40 10.71.60.0 u98841435 Connection closed by 10.71.60.0 port 27268
+Apr 13 00:56:20 10.71.60.0 u98841435 Connection from 10.71.60.0 port 41788 on 74.208.58.238 port 22
+Apr 13 00:56:26 10.71.60.0 u98841435 Accepted password for u98841435 from 10.71.60.0 port 41788 ssh2
+Apr 13 00:56:26 10.71.60.0 u98841435 Starting session: subsystem 'sftp' for u98841435 from 10.71.60.0 port 41788 id 0
+Apr 13 00:56:26 10.71.60.0 u98841435 session opened for local user u98841435 from [10.71.60.0]
+Apr 13 00:57:04 10.71.60.0 u98841435 open "/php/contact.php" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 13 00:57:04 10.71.60.0 u98841435 sent status Failure
+Apr 13 00:57:08 10.71.60.0 u98841435 open "/php/contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 00:57:08 10.71.60.0 u98841435 close "/php/contact.php" bytes read 0 written 3448
+Apr 13 00:57:08 10.71.60.0 u98841435 [10.71.60.0|put|0|3448|0|0|0|2f7068702f636f6e746163742e706870|]
+Apr 13 00:57:08 10.71.60.0 u98841435 set "/php/contact.php" modtime 20210412-23:47:06
+Apr 13 00:57:09 10.71.60.0 u98841435 open "/about.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 00:57:09 10.71.60.0 u98841435 close "/about.html" bytes read 0 written 6934
+Apr 13 00:57:09 10.71.60.0 u98841435 [10.71.60.0|put|0|6934|0|0|0|2f61626f75742e68746d6c|]
+Apr 13 00:57:09 10.71.60.0 u98841435 set "/about.html" modtime 20210413-00:55:53
+Apr 13 00:57:09 10.71.60.0 u98841435 open "/contact.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 00:57:10 10.71.60.0 u98841435 close "/contact.html" bytes read 0 written 4090
+Apr 13 00:57:10 10.71.60.0 u98841435 [10.71.60.0|put|1|4090|0|0|0|2f636f6e746163742e68746d6c|]
+Apr 13 00:57:10 10.71.60.0 u98841435 set "/contact.html" modtime 20210413-00:56:06
+Apr 13 00:57:10 10.71.60.0 u98841435 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 00:57:11 10.71.60.0 u98841435 close "/index.html" bytes read 0 written 4173
+Apr 13 00:57:11 10.71.60.0 u98841435 [10.71.60.0|put|1|4173|0|0|0|2f696e6465782e68746d6c|]
+Apr 13 00:57:11 10.71.60.0 u98841435 set "/index.html" modtime 20210413-00:56:05
+Apr 13 00:57:11 10.71.60.0 u98841435 open "/Resume.pdf" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 00:57:12 10.71.60.0 u98841435 close "/Resume.pdf" bytes read 0 written 57169
+Apr 13 00:57:12 10.71.60.0 u98841435 [10.71.60.0|put|1|57169|0|0|0|2f526573756d652e706466|]
+Apr 13 00:57:12 10.71.60.0 u98841435 set "/Resume.pdf" modtime 20210413-00:54:20
+Apr 13 01:17:14 10.71.60.0 u98841435 session closed for local user u98841435 from [10.71.60.0]
+Apr 13 09:08:46 10.71.60.0 u98841435 Connection from 10.71.60.0 port 30264 on 74.208.58.238 port 22
+Apr 13 09:08:47 10.71.60.0 u98841435 Accepted password for u98841435 from 10.71.60.0 port 30264 ssh2
+Apr 13 09:08:47 10.71.60.0 u98841435 Starting session: subsystem 'sftp' for u98841435 from 10.71.60.0 port 30264 id 0
+Apr 13 09:08:47 10.71.60.0 u98841435 session opened for local user u98841435 from [10.71.60.0]
+Apr 13 09:29:31 10.71.60.0 u98841435 open "/Resume Alex Anderson.pdf" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 13 09:29:31 10.71.60.0 u98841435 close "/Resume Alex Anderson.pdf" bytes read 0 written 57884
+Apr 13 09:29:31 10.71.60.0 u98841435 [10.71.60.0|put|0|57884|0|0|0|2f526573756d6520416c657820416e646572736f6e2e706466|]
+Apr 13 09:29:31 10.71.60.0 u98841435 set "/Resume Alex Anderson.pdf" modtime 20210413-09:28:56
+Apr 13 09:30:38 10.71.60.0 u98841435 remove name "/Resume Alex Anderson.pdf"
+Apr 13 09:30:38 10.71.60.0 u98841435 [10.71.60.0|rm|0|0|0|0|0|2f526573756d6520416c657820416e646572736f6e2e706466|]
+Apr 13 09:30:45 10.71.60.0 u98841435 open "/Resume-Alex-Anderson.pdf" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 13 09:30:45 10.71.60.0 u98841435 close "/Resume-Alex-Anderson.pdf" bytes read 0 written 57884
+Apr 13 09:30:45 10.71.60.0 u98841435 [10.71.60.0|put|0|57884|0|0|0|2f526573756d652d416c65782d416e646572736f6e2e706466|]
+Apr 13 09:30:45 10.71.60.0 u98841435 set "/Resume-Alex-Anderson.pdf" modtime 20210413-09:28:56
+Apr 13 09:31:16 10.71.60.0 u98841435 open "/index.html" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 13 09:31:16 10.71.60.0 u98841435 sent status Failure
+Apr 13 09:31:18 10.71.60.0 u98841435 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 09:31:18 10.71.60.0 u98841435 close "/index.html" bytes read 0 written 4187
+Apr 13 09:31:18 10.71.60.0 u98841435 [10.71.60.0|put|0|4187|0|0|0|2f696e6465782e68746d6c|]
+Apr 13 09:31:18 10.71.60.0 u98841435 set "/index.html" modtime 20210413-09:30:24
+Apr 13 10:56:29 10.71.60.0 u98841435 open "/contact.html" flags WRITE,CREATE,TRUNCATE,EXCL mode 0666
+Apr 13 10:56:29 10.71.60.0 u98841435 sent status Failure
+Apr 13 10:56:31 10.71.60.0 u98841435 open "/contact.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:32 10.71.60.0 u98841435 close "/contact.html" bytes read 0 written 4104
+Apr 13 10:56:32 10.71.60.0 u98841435 [10.71.60.0|put|1|4104|0|0|0|2f636f6e746163742e68746d6c|]
+Apr 13 10:56:32 10.71.60.0 u98841435 set "/contact.html" modtime 20210413-09:32:41
+Apr 13 10:56:32 10.71.60.0 u98841435 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:32 10.71.60.0 u98841435 close "/index.html" bytes read 0 written 4187
+Apr 13 10:56:32 10.71.60.0 u98841435 [10.71.60.0|put|0|4187|0|0|0|2f696e6465782e68746d6c|]
+Apr 13 10:56:32 10.71.60.0 u98841435 set "/index.html" modtime 20210413-09:30:24
+Apr 13 10:56:33 10.71.60.0 u98841435 open "/Resume.pdf" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:33 10.71.60.0 u98841435 close "/Resume.pdf" bytes read 0 written 57169
+Apr 13 10:56:33 10.71.60.0 u98841435 [10.71.60.0|put|0|57169|0|0|0|2f526573756d652e706466|]
+Apr 13 10:56:33 10.71.60.0 u98841435 set "/Resume.pdf" modtime 20210413-00:54:20
+Apr 13 10:56:34 10.71.60.0 u98841435 open "/css/animate.min.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:34 10.71.60.0 u98841435 close "/css/animate.min.css" bytes read 0 written 55522
+Apr 13 10:56:34 10.71.60.0 u98841435 [10.71.60.0|put|0|55522|0|0|0|2f6373732f616e696d6174652e6d696e2e637373|]
+Apr 13 10:56:34 10.71.60.0 u98841435 set "/css/animate.min.css" modtime 20210412-20:00:47
+Apr 13 10:56:34 10.71.60.0 u98841435 sent status No such file
+Apr 13 10:56:34 10.71.60.0 u98841435 open "/css/bootstrap.min.css.filepart" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:35 10.71.60.0 u98841435 close "/css/bootstrap.min.css.filepart" bytes read 0 written 122540
+Apr 13 10:56:35 10.71.60.0 u98841435 [10.71.60.0|put|1|122540|0|0|0|2f6373732f626f6f7473747261702e6d696e2e6373732e66696c6570617274|]
+Apr 13 10:56:35 10.71.60.0 u98841435 remove name "/css/bootstrap.min.css"
+Apr 13 10:56:35 10.71.60.0 u98841435 [10.71.60.0|rm|0|0|0|0|0|2f6373732f626f6f7473747261702e6d696e2e637373|]
+Apr 13 10:56:35 10.71.60.0 u98841435 rename old "/css/bootstrap.min.css.filepart" new "/css/bootstrap.min.css"
+Apr 13 10:56:35 10.71.60.0 u98841435 [10.71.60.0|rename|0|0|0|0|0|2f6373732f626f6f7473747261702e6d696e2e6373732e66696c6570617274|2f6373732f626f6f7473747261702e6d696e2e637373]
+Apr 13 10:56:35 10.71.60.0 u98841435 set "/css/bootstrap.min.css" mode 0604
+Apr 13 10:56:35 10.71.60.0 u98841435 [10.71.60.0|chmod|0|0|388|0|0|2f6373732f626f6f7473747261702e6d696e2e637373|]
+Apr 13 10:56:35 10.71.60.0 u98841435 set "/css/bootstrap.min.css" modtime 20210412-20:00:47
+Apr 13 10:56:35 10.71.60.0 u98841435 open "/css/jquery.fancybox.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:35 10.71.60.0 u98841435 close "/css/jquery.fancybox.css" bytes read 0 written 4955
+Apr 13 10:56:35 10.71.60.0 u98841435 [10.71.60.0|put|0|4955|0|0|0|2f6373732f6a71756572792e66616e6379626f782e637373|]
+Apr 13 10:56:35 10.71.60.0 u98841435 set "/css/jquery.fancybox.css" modtime 20210412-20:00:47
+Apr 13 10:56:35 10.71.60.0 u98841435 open "/css/main.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:35 10.71.60.0 u98841435 close "/css/main.css" bytes read 0 written 14525
+Apr 13 10:56:35 10.71.60.0 u98841435 [10.71.60.0|put|0|14525|0|0|0|2f6373732f6d61696e2e637373|]
+Apr 13 10:56:35 10.71.60.0 u98841435 set "/css/main.css" modtime 20210413-10:56:00
+Apr 13 10:56:35 10.71.60.0 u98841435 open "/css/responsive.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:35 10.71.60.0 u98841435 close "/css/responsive.css" bytes read 0 written 2420
+Apr 13 10:56:35 10.71.60.0 u98841435 [10.71.60.0|put|0|2420|0|0|0|2f6373732f726573706f6e736976652e637373|]
+Apr 13 10:56:36 10.71.60.0 u98841435 set "/css/responsive.css" modtime 20210412-20:00:47
+Apr 13 10:56:36 10.71.60.0 u98841435 open "/fonts/elegant-theme-line.eot" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:36 10.71.60.0 u98841435 close "/fonts/elegant-theme-line.eot" bytes read 0 written 47260
+Apr 13 10:56:36 10.71.60.0 u98841435 [10.71.60.0|put|0|47260|0|0|0|2f666f6e74732f656c6567616e742d7468656d652d6c696e652e656f74|]
+Apr 13 10:56:36 10.71.60.0 u98841435 set "/fonts/elegant-theme-line.eot" modtime 20210412-20:00:46
+Apr 13 10:56:36 10.71.60.0 u98841435 sent status No such file
+Apr 13 10:56:36 10.71.60.0 u98841435 open "/fonts/elegant-theme-line.svg.filepart" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:36 10.71.60.0 u98841435 close "/fonts/elegant-theme-line.svg.filepart" bytes read 0 written 162661
+Apr 13 10:56:36 10.71.60.0 u98841435 [10.71.60.0|put|0|162661|0|0|0|2f666f6e74732f656c6567616e742d7468656d652d6c696e652e7376672e66696c6570617274|]
+Apr 13 10:56:36 10.71.60.0 u98841435 remove name "/fonts/elegant-theme-line.svg"
+Apr 13 10:56:36 10.71.60.0 u98841435 [10.71.60.0|rm|0|0|0|0|0|2f666f6e74732f656c6567616e742d7468656d652d6c696e652e737667|]
+Apr 13 10:56:36 10.71.60.0 u98841435 rename old "/fonts/elegant-theme-line.svg.filepart" new "/fonts/elegant-theme-line.svg"
+Apr 13 10:56:36 10.71.60.0 u98841435 [10.71.60.0|rename|0|0|0|0|0|2f666f6e74732f656c6567616e742d7468656d652d6c696e652e7376672e66696c6570617274|2f666f6e74732f656c6567616e742d7468656d652d6c696e652e737667]
+Apr 13 10:56:36 10.71.60.0 u98841435 set "/fonts/elegant-theme-line.svg" mode 0604
+Apr 13 10:56:36 10.71.60.0 u98841435 [10.71.60.0|chmod|0|0|388|0|0|2f666f6e74732f656c6567616e742d7468656d652d6c696e652e737667|]
+Apr 13 10:56:36 10.71.60.0 u98841435 set "/fonts/elegant-theme-line.svg" modtime 20210412-20:00:46
+Apr 13 10:56:36 10.71.60.0 u98841435 open "/fonts/elegant-theme-line.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:37 10.71.60.0 u98841435 close "/fonts/elegant-theme-line.ttf" bytes read 0 written 47052
+Apr 13 10:56:37 10.71.60.0 u98841435 [10.71.60.0|put|1|47052|0|0|0|2f666f6e74732f656c6567616e742d7468656d652d6c696e652e747466|]
+Apr 13 10:56:37 10.71.60.0 u98841435 set "/fonts/elegant-theme-line.ttf" modtime 20210412-20:00:46
+Apr 13 10:56:37 10.71.60.0 u98841435 open "/fonts/elegant-theme-line.woff" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:37 10.71.60.0 u98841435 close "/fonts/elegant-theme-line.woff" bytes read 0 written 47128
+Apr 13 10:56:37 10.71.60.0 u98841435 [10.71.60.0|put|0|47128|0|0|0|2f666f6e74732f656c6567616e742d7468656d652d6c696e652e776f6666|]
+Apr 13 10:56:37 10.71.60.0 u98841435 set "/fonts/elegant-theme-line.woff" modtime 20210412-20:00:46
+Apr 13 10:56:37 10.71.60.0 u98841435 open "/fonts/flexslider-icon.eot" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:37 10.71.60.0 u98841435 close "/fonts/flexslider-icon.eot" bytes read 0 written 2082
+Apr 13 10:56:37 10.71.60.0 u98841435 [10.71.60.0|put|0|2082|0|0|0|2f666f6e74732f666c6578736c696465722d69636f6e2e656f74|]
+Apr 13 10:56:37 10.71.60.0 u98841435 set "/fonts/flexslider-icon.eot" modtime 20210412-20:00:46
+Apr 13 10:56:37 10.71.60.0 u98841435 open "/fonts/flexslider-icon.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:37 10.71.60.0 u98841435 close "/fonts/flexslider-icon.svg" bytes read 0 written 2334
+Apr 13 10:56:37 10.71.60.0 u98841435 [10.71.60.0|put|0|2334|0|0|0|2f666f6e74732f666c6578736c696465722d69636f6e2e737667|]
+Apr 13 10:56:37 10.71.60.0 u98841435 set "/fonts/flexslider-icon.svg" modtime 20210412-20:00:46
+Apr 13 10:56:37 10.71.60.0 u98841435 open "/fonts/flexslider-icon.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:37 10.71.60.0 u98841435 close "/fonts/flexslider-icon.ttf" bytes read 0 written 1892
+Apr 13 10:56:37 10.71.60.0 u98841435 [10.71.60.0|put|0|1892|0|0|0|2f666f6e74732f666c6578736c696465722d69636f6e2e747466|]
+Apr 13 10:56:37 10.71.60.0 u98841435 set "/fonts/flexslider-icon.ttf" modtime 20210412-20:00:46
+Apr 13 10:56:37 10.71.60.0 u98841435 open "/fonts/flexslider-icon.woff" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:37 10.71.60.0 u98841435 close "/fonts/flexslider-icon.woff" bytes read 0 written 1268
+Apr 13 10:56:37 10.71.60.0 u98841435 [10.71.60.0|put|0|1268|0|0|0|2f666f6e74732f666c6578736c696465722d69636f6e2e776f6666|]
+Apr 13 10:56:37 10.71.60.0 u98841435 set "/fonts/flexslider-icon.woff" modtime 20210412-20:00:46
+Apr 13 10:56:37 10.71.60.0 u98841435 open "/fonts/glyphicons-halflings-regular.eot" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:38 10.71.60.0 u98841435 close "/fonts/glyphicons-halflings-regular.eot" bytes read 0 written 20127
+Apr 13 10:56:38 10.71.60.0 u98841435 [10.71.60.0|put|1|20127|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e656f74|]
+Apr 13 10:56:38 10.71.60.0 u98841435 set "/fonts/glyphicons-halflings-regular.eot" modtime 20210412-20:00:46
+Apr 13 10:56:38 10.71.60.0 u98841435 sent status No such file
+Apr 13 10:56:38 10.71.60.0 u98841435 open "/fonts/glyphicons-halflings-regular.svg.filepart" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:38 10.71.60.0 u98841435 close "/fonts/glyphicons-halflings-regular.svg.filepart" bytes read 0 written 108738
+Apr 13 10:56:38 10.71.60.0 u98841435 [10.71.60.0|put|0|108738|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e7376672e66696c6570617274|]
+Apr 13 10:56:38 10.71.60.0 u98841435 remove name "/fonts/glyphicons-halflings-regular.svg"
+Apr 13 10:56:38 10.71.60.0 u98841435 [10.71.60.0|rm|0|0|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e737667|]
+Apr 13 10:56:38 10.71.60.0 u98841435 rename old "/fonts/glyphicons-halflings-regular.svg.filepart" new "/fonts/glyphicons-halflings-regular.svg"
+Apr 13 10:56:38 10.71.60.0 u98841435 [10.71.60.0|rename|0|0|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e7376672e66696c6570617274|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e737667]
+Apr 13 10:56:38 10.71.60.0 u98841435 set "/fonts/glyphicons-halflings-regular.svg" mode 0604
+Apr 13 10:56:38 10.71.60.0 u98841435 [10.71.60.0|chmod|0|0|388|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e737667|]
+Apr 13 10:56:38 10.71.60.0 u98841435 set "/fonts/glyphicons-halflings-regular.svg" modtime 20210412-20:00:46
+Apr 13 10:56:38 10.71.60.0 u98841435 open "/fonts/glyphicons-halflings-regular.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:38 10.71.60.0 u98841435 close "/fonts/glyphicons-halflings-regular.ttf" bytes read 0 written 45404
+Apr 13 10:56:38 10.71.60.0 u98841435 [10.71.60.0|put|0|45404|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e747466|]
+Apr 13 10:56:38 10.71.60.0 u98841435 set "/fonts/glyphicons-halflings-regular.ttf" modtime 20210412-20:00:46
+Apr 13 10:56:38 10.71.60.0 u98841435 open "/fonts/glyphicons-halflings-regular.woff" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:38 10.71.60.0 u98841435 close "/fonts/glyphicons-halflings-regular.woff" bytes read 0 written 23424
+Apr 13 10:56:38 10.71.60.0 u98841435 [10.71.60.0|put|0|23424|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e776f6666|]
+Apr 13 10:56:38 10.71.60.0 u98841435 set "/fonts/glyphicons-halflings-regular.woff" modtime 20210412-20:00:46
+Apr 13 10:56:38 10.71.60.0 u98841435 open "/fonts/glyphicons-halflings-regular.woff2" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:39 10.71.60.0 u98841435 close "/fonts/glyphicons-halflings-regular.woff2" bytes read 0 written 18028
+Apr 13 10:56:39 10.71.60.0 u98841435 [10.71.60.0|put|1|18028|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e776f666632|]
+Apr 13 10:56:39 10.71.60.0 u98841435 set "/fonts/glyphicons-halflings-regular.woff2" modtime 20210412-20:00:46
+Apr 13 10:56:39 10.71.60.0 u98841435 open "/images/blank.gif" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:39 10.71.60.0 u98841435 close "/images/blank.gif" bytes read 0 written 43
+Apr 13 10:56:39 10.71.60.0 u98841435 [10.71.60.0|put|0|43|0|0|0|2f696d616765732f626c616e6b2e676966|]
+Apr 13 10:56:39 10.71.60.0 u98841435 set "/images/blank.gif" modtime 20210412-20:00:46
+Apr 13 10:56:39 10.71.60.0 u98841435 open "/images/fancybox_loading.gif" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:39 10.71.60.0 u98841435 close "/images/fancybox_loading.gif" bytes read 0 written 6567
+Apr 13 10:56:39 10.71.60.0 u98841435 [10.71.60.0|put|0|6567|0|0|0|2f696d616765732f66616e6379626f785f6c6f6164696e672e676966|]
+Apr 13 10:56:39 10.71.60.0 u98841435 set "/images/fancybox_loading.gif" modtime 20210412-20:00:47
+Apr 13 10:56:39 10.71.60.0 u98841435 open "/images/fancybox_loading@2x.gif" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:39 10.71.60.0 u98841435 close "/images/fancybox_loading@2x.gif" bytes read 0 written 13984
+Apr 13 10:56:39 10.71.60.0 u98841435 [10.71.60.0|put|0|13984|0|0|0|2f696d616765732f66616e6379626f785f6c6f6164696e674032782e676966|]
+Apr 13 10:56:39 10.71.60.0 u98841435 set "/images/fancybox_loading@2x.gif" modtime 20210412-20:00:47
+Apr 13 10:56:39 10.71.60.0 u98841435 open "/images/fancybox_overlay.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:39 10.71.60.0 u98841435 close "/images/fancybox_overlay.png" bytes read 0 written 1003
+Apr 13 10:56:39 10.71.60.0 u98841435 [10.71.60.0|put|0|1003|0|0|0|2f696d616765732f66616e6379626f785f6f7665726c61792e706e67|]
+Apr 13 10:56:39 10.71.60.0 u98841435 set "/images/fancybox_overlay.png" modtime 20210412-20:00:47
+Apr 13 10:56:39 10.71.60.0 u98841435 open "/images/fancybox_sprite.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:39 10.71.60.0 u98841435 close "/images/fancybox_sprite.png" bytes read 0 written 1362
+Apr 13 10:56:39 10.71.60.0 u98841435 [10.71.60.0|put|0|1362|0|0|0|2f696d616765732f66616e6379626f785f7370726974652e706e67|]
+Apr 13 10:56:39 10.71.60.0 u98841435 set "/images/fancybox_sprite.png" modtime 20210412-20:00:47
+Apr 13 10:56:40 10.71.60.0 u98841435 open "/images/fancybox_sprite@2x.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:40 10.71.60.0 u98841435 close "/images/fancybox_sprite@2x.png" bytes read 0 written 6553
+Apr 13 10:56:40 10.71.60.0 u98841435 [10.71.60.0|put|0|6553|0|0|0|2f696d616765732f66616e6379626f785f7370726974654032782e706e67|]
+Apr 13 10:56:40 10.71.60.0 u98841435 set "/images/fancybox_sprite@2x.png" modtime 20210412-20:00:47
+Apr 13 10:56:40 10.71.60.0 u98841435 sent status No such file
+Apr 13 10:56:40 10.71.60.0 u98841435 open "/images/profile-pic.jpg.filepart" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:41 10.71.60.0 u98841435 close "/images/profile-pic.jpg.filepart" bytes read 0 written 1042968
+Apr 13 10:56:41 10.71.60.0 u98841435 [10.71.60.0|put|1|1042968|0|0|0|2f696d616765732f70726f66696c652d7069632e6a70672e66696c6570617274|]
+Apr 13 10:56:41 10.71.60.0 u98841435 remove name "/images/profile-pic.jpg"
+Apr 13 10:56:41 10.71.60.0 u98841435 [10.71.60.0|rm|0|0|0|0|0|2f696d616765732f70726f66696c652d7069632e6a7067|]
+Apr 13 10:56:41 10.71.60.0 u98841435 rename old "/images/profile-pic.jpg.filepart" new "/images/profile-pic.jpg"
+Apr 13 10:56:41 10.71.60.0 u98841435 [10.71.60.0|rename|0|0|0|0|0|2f696d616765732f70726f66696c652d7069632e6a70672e66696c6570617274|2f696d616765732f70726f66696c652d7069632e6a7067]
+Apr 13 10:56:41 10.71.60.0 u98841435 set "/images/profile-pic.jpg" mode 0604
+Apr 13 10:56:41 10.71.60.0 u98841435 [10.71.60.0|chmod|0|0|388|0|0|2f696d616765732f70726f66696c652d7069632e6a7067|]
+Apr 13 10:56:41 10.71.60.0 u98841435 set "/images/profile-pic.jpg" modtime 20210412-20:32:19
+Apr 13 10:56:41 10.71.60.0 u98841435 sent status No such file
+Apr 13 10:56:41 10.71.60.0 u98841435 open "/images/profile-pic2.jpg.filepart" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:42 10.71.60.0 u98841435 close "/images/profile-pic2.jpg.filepart" bytes read 0 written 152712
+Apr 13 10:56:42 10.71.60.0 u98841435 [10.71.60.0|put|1|152712|0|0|0|2f696d616765732f70726f66696c652d706963322e6a70672e66696c6570617274|]
+Apr 13 10:56:42 10.71.60.0 u98841435 remove name "/images/profile-pic2.jpg"
+Apr 13 10:56:42 10.71.60.0 u98841435 [10.71.60.0|rm|0|0|0|0|0|2f696d616765732f70726f66696c652d706963322e6a7067|]
+Apr 13 10:56:42 10.71.60.0 u98841435 rename old "/images/profile-pic2.jpg.filepart" new "/images/profile-pic2.jpg"
+Apr 13 10:56:42 10.71.60.0 u98841435 [10.71.60.0|rename|0|0|0|0|0|2f696d616765732f70726f66696c652d706963322e6a70672e66696c6570617274|2f696d616765732f70726f66696c652d706963322e6a7067]
+Apr 13 10:56:42 10.71.60.0 u98841435 set "/images/profile-pic2.jpg" mode 0604
+Apr 13 10:56:42 10.71.60.0 u98841435 [10.71.60.0|chmod|0|0|388|0|0|2f696d616765732f70726f66696c652d706963322e6a7067|]
+Apr 13 10:56:42 10.71.60.0 u98841435 set "/images/profile-pic2.jpg" modtime 20210412-20:33:39
+Apr 13 10:56:42 10.71.60.0 u98841435 sent status No such file
+Apr 13 10:56:42 10.71.60.0 u98841435 open "/images/profile-pic3.jpg.filepart" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:44 10.71.60.0 u98841435 close "/images/profile-pic3.jpg.filepart" bytes read 0 written 2007534
+Apr 13 10:56:44 10.71.60.0 u98841435 [10.71.60.0|put|2|2007534|0|0|0|2f696d616765732f70726f66696c652d706963332e6a70672e66696c6570617274|]
+Apr 13 10:56:44 10.71.60.0 u98841435 remove name "/images/profile-pic3.jpg"
+Apr 13 10:56:44 10.71.60.0 u98841435 [10.71.60.0|rm|0|0|0|0|0|2f696d616765732f70726f66696c652d706963332e6a7067|]
+Apr 13 10:56:44 10.71.60.0 u98841435 rename old "/images/profile-pic3.jpg.filepart" new "/images/profile-pic3.jpg"
+Apr 13 10:56:44 10.71.60.0 u98841435 [10.71.60.0|rename|0|0|0|0|0|2f696d616765732f70726f66696c652d706963332e6a70672e66696c6570617274|2f696d616765732f70726f66696c652d706963332e6a7067]
+Apr 13 10:56:44 10.71.60.0 u98841435 set "/images/profile-pic3.jpg" mode 0604
+Apr 13 10:56:44 10.71.60.0 u98841435 [10.71.60.0|chmod|0|0|388|0|0|2f696d616765732f70726f66696c652d706963332e6a7067|]
+Apr 13 10:56:44 10.71.60.0 u98841435 set "/images/profile-pic3.jpg" modtime 20210412-20:39:26
+Apr 13 10:56:44 10.71.60.0 u98841435 sent status No such file
+Apr 13 10:56:44 10.71.60.0 u98841435 open "/images/PXL_20210211_170946362.PORTRAIT.jpg.filepart" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:48 10.71.60.0 u98841435 close "/images/PXL_20210211_170946362.PORTRAIT.jpg.filepart" bytes read 0 written 3481083
+Apr 13 10:56:48 10.71.60.0 u98841435 [10.71.60.0|put|4|3481083|0|0|0|2f696d616765732f50584c5f32303231303231315f3137303934363336322e504f5254524149542e6a70672e66696c6570617274|]
+Apr 13 10:56:48 10.71.60.0 u98841435 remove name "/images/PXL_20210211_170946362.PORTRAIT.jpg"
+Apr 13 10:56:48 10.71.60.0 u98841435 [10.71.60.0|rm|0|0|0|0|0|2f696d616765732f50584c5f32303231303231315f3137303934363336322e504f5254524149542e6a7067|]
+Apr 13 10:56:48 10.71.60.0 u98841435 rename old "/images/PXL_20210211_170946362.PORTRAIT.jpg.filepart" new "/images/PXL_20210211_170946362.PORTRAIT.jpg"
+Apr 13 10:56:48 10.71.60.0 u98841435 [10.71.60.0|rename|0|0|0|0|0|2f696d616765732f50584c5f32303231303231315f3137303934363336322e504f5254524149542e6a70672e66696c6570617274|2f696d616765732f50584c5f32303231303231315f3137303934363336322e504f5254524149542e6a7067]
+Apr 13 10:56:48 10.71.60.0 u98841435 set "/images/PXL_20210211_170946362.PORTRAIT.jpg" mode 0604
+Apr 13 10:56:48 10.71.60.0 u98841435 [10.71.60.0|chmod|0|0|388|0|0|2f696d616765732f50584c5f32303231303231315f3137303934363336322e504f5254524149542e6a7067|]
+Apr 13 10:56:48 10.71.60.0 u98841435 set "/images/PXL_20210211_170946362.PORTRAIT.jpg" modtime 20210412-20:38:53
+Apr 13 10:56:48 10.71.60.0 u98841435 open "/js/bootstrap.min.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:48 10.71.60.0 u98841435 close "/js/bootstrap.min.js" bytes read 0 written 36816
+Apr 13 10:56:48 10.71.60.0 u98841435 [10.71.60.0|put|0|36816|0|0|0|2f6a732f626f6f7473747261702e6d696e2e6a73|]
+Apr 13 10:56:48 10.71.60.0 u98841435 set "/js/bootstrap.min.js" modtime 20210412-20:00:47
+Apr 13 10:56:48 10.71.60.0 u98841435 open "/js/jquery.contact.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:49 10.71.60.0 u98841435 close "/js/jquery.contact.js" bytes read 0 written 780
+Apr 13 10:56:49 10.71.60.0 u98841435 [10.71.60.0|put|1|780|0|0|0|2f6a732f6a71756572792e636f6e746163742e6a73|]
+Apr 13 10:56:49 10.71.60.0 u98841435 set "/js/jquery.contact.js" modtime 20210412-20:00:47
+Apr 13 10:56:49 10.71.60.0 u98841435 open "/js/jquery.fancybox.pack.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:49 10.71.60.0 u98841435 close "/js/jquery.fancybox.pack.js" bytes read 0 written 23135
+Apr 13 10:56:49 10.71.60.0 u98841435 [10.71.60.0|put|0|23135|0|0|0|2f6a732f6a71756572792e66616e6379626f782e7061636b2e6a73|]
+Apr 13 10:56:49 10.71.60.0 u98841435 set "/js/jquery.fancybox.pack.js" modtime 20210412-20:00:47
+Apr 13 10:56:49 10.71.60.0 u98841435 open "/js/jquery.min.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:49 10.71.60.0 u98841435 close "/js/jquery.min.js" bytes read 0 written 96661
+Apr 13 10:56:49 10.71.60.0 u98841435 [10.71.60.0|put|0|96661|0|0|0|2f6a732f6a71756572792e6d696e2e6a73|]
+Apr 13 10:56:49 10.71.60.0 u98841435 set "/js/jquery.min.js" modtime 20210412-20:00:47
+Apr 13 10:56:49 10.71.60.0 u98841435 open "/js/jquery.waypoints.min.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:49 10.71.60.0 u98841435 close "/js/jquery.waypoints.min.js" bytes read 0 written 8787
+Apr 13 10:56:49 10.71.60.0 u98841435 [10.71.60.0|put|0|8787|0|0|0|2f6a732f6a71756572792e776179706f696e74732e6d696e2e6a73|]
+Apr 13 10:56:49 10.71.60.0 u98841435 set "/js/jquery.waypoints.min.js" modtime 20210412-20:00:47
+Apr 13 10:56:49 10.71.60.0 u98841435 open "/js/main.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:49 10.71.60.0 u98841435 close "/js/main.js" bytes read 0 written 1513
+Apr 13 10:56:49 10.71.60.0 u98841435 [10.71.60.0|put|0|1513|0|0|0|2f6a732f6d61696e2e6a73|]
+Apr 13 10:56:49 10.71.60.0 u98841435 set "/js/main.js" modtime 20210412-20:00:47
+Apr 13 10:56:50 10.71.60.0 u98841435 open "/js/modernizr.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:50 10.71.60.0 u98841435 close "/js/modernizr.js" bytes read 0 written 51351
+Apr 13 10:56:50 10.71.60.0 u98841435 [10.71.60.0|put|0|51351|0|0|0|2f6a732f6d6f6465726e697a722e6a73|]
+Apr 13 10:56:50 10.71.60.0 u98841435 set "/js/modernizr.js" modtime 20210412-20:00:47
+Apr 13 10:56:50 10.71.60.0 u98841435 open "/js/retina.min.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:50 10.71.60.0 u98841435 close "/js/retina.min.js" bytes read 0 written 2575
+Apr 13 10:56:50 10.71.60.0 u98841435 [10.71.60.0|put|0|2575|0|0|0|2f6a732f726574696e612e6d696e2e6a73|]
+Apr 13 10:56:50 10.71.60.0 u98841435 set "/js/retina.min.js" modtime 20210412-20:00:47
+Apr 13 10:56:50 10.71.60.0 u98841435 open "/php/contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:50 10.71.60.0 u98841435 close "/php/contact.php" bytes read 0 written 3448
+Apr 13 10:56:50 10.71.60.0 u98841435 [10.71.60.0|put|0|3448|0|0|0|2f7068702f636f6e746163742e706870|]
+Apr 13 10:56:50 10.71.60.0 u98841435 set "/php/contact.php" modtime 20210412-23:47:06
+Apr 13 10:56:50 10.71.60.0 u98841435 open "/about.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 13 10:56:50 10.71.60.0 u98841435 close "/about.html" bytes read 0 written 6948
+Apr 13 10:56:50 10.71.60.0 u98841435 [10.71.60.0|put|0|6948|0|0|0|2f61626f75742e68746d6c|]
+Apr 13 10:56:50 10.71.60.0 u98841435 set "/about.html" modtime 20210413-09:32:39
+Apr 13 11:16:52 10.71.60.0 u98841435 session closed for local user u98841435 from [10.71.60.0]
+Apr 13 11:20:30 10.71.60.0 u98841435 Connection from 10.71.60.0 port 50142 on 74.208.58.238 port 22
+Apr 13 11:20:30 10.71.60.0 u98841435 Accepted password for u98841435 from 10.71.60.0 port 50142 ssh2
+Apr 13 11:20:30 10.71.60.0 u98841435 Starting session: subsystem 'sftp' for u98841435 from 10.71.60.0 port 50142 id 0
+Apr 13 11:20:30 10.71.60.0 u98841435 session opened for local user u98841435 from [10.71.60.0]
+Apr 13 11:46:31 10.71.60.0 u98841435 session closed for local user u98841435 from [10.71.60.0]
+Apr 13 11:46:31 10.71.60.0 u98841435 Connection closed by 10.71.60.0 port 50142
+Apr 14 18:11:07 10.71.60.0 tmp98841435-5776 Connection from 10.71.60.0 port 52502 on 74.208.58.238 port 22
+Apr 14 18:11:08 10.71.60.0 tmp98841435-5776 Accepted password for tmp98841435-5776 from 10.71.60.0 port 52502 ssh2
+Apr 14 18:11:08 10.71.60.0 tmp98841435-5776 Starting session: subsystem 'sftp' for tmp98841435-5776 from 10.71.60.0 port 52502 id 0
+Apr 14 18:11:08 10.71.60.0 tmp98841435-5776 session opened for local user tmp98841435-5776 from [10.71.60.0]
+Apr 14 18:13:23 10.71.60.0 tmp98841435-3673 Connection from 10.71.60.0 port 25108 on 74.208.58.238 port 22
+Apr 14 18:13:23 10.71.60.0 tmp98841435-3673 Accepted password for tmp98841435-3673 from 10.71.60.0 port 25108 ssh2
+Apr 14 18:13:24 10.71.60.0 tmp98841435-5776 open "/favicon.ico" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr 14 18:13:24 10.71.60.0 tmp98841435-5776 close "/favicon.ico" bytes read 0 written 15406
+Apr 14 18:13:24 10.71.60.0 tmp98841435-5776 [10.71.60.0|put|0|15406|0|0|0|2f66617669636f6e2e69636f|]
+Apr 14 18:20:39 10.71.60.0 u98841435 Connection from 10.71.60.0 port 42540 on 74.208.58.238 port 22
+Apr 14 18:20:47 10.71.60.0 u98841435 Failed password for u98841435 from 10.71.60.0 port 42540 ssh2
+Apr 14 18:21:05 10.71.60.0 u98841435 Failed password for u98841435 from 10.71.60.0 port 42540 ssh2
+Apr 14 18:21:12 10.71.60.0 u98841435 Connection from 10.71.60.0 port 59278 on 74.208.58.238 port 22
+Apr 14 18:21:13 10.71.60.0 u98841435 Accepted password for u98841435 from 10.71.60.0 port 59278 ssh2
+Apr 14 18:21:14 10.71.60.0 u98841435 Starting session: subsystem 'sftp' for u98841435 from 10.71.60.0 port 59278 id 0
+Apr 14 18:21:14 10.71.60.0 u98841435 session opened for local user u98841435 from [10.71.60.0]
+Apr 14 18:21:28 10.71.60.0 u98841435 open "/css/animate.min.css" flags READ mode 0666
+Apr 14 18:21:29 10.71.60.0 u98841435 close "/css/animate.min.css" bytes read 55522 written 0
+Apr 14 18:21:29 10.71.60.0 u98841435 [10.71.60.0|get|1|55522|0|0|0|2f6373732f616e696d6174652e6d696e2e637373|]
+Apr 14 18:21:29 10.71.60.0 u98841435 open "/css/jquery.fancybox.css" flags READ mode 0666
+Apr 14 18:21:29 10.71.60.0 u98841435 close "/css/jquery.fancybox.css" bytes read 4955 written 0
+Apr 14 18:21:29 10.71.60.0 u98841435 [10.71.60.0|get|0|4955|0|0|0|2f6373732f6a71756572792e66616e6379626f782e637373|]
+Apr 14 18:21:29 10.71.60.0 u98841435 open "/css/main.css" flags READ mode 0666
+Apr 14 18:21:29 10.71.60.0 u98841435 close "/css/main.css" bytes read 14525 written 0
+Apr 14 18:21:29 10.71.60.0 u98841435 [10.71.60.0|get|0|14525|0|0|0|2f6373732f6d61696e2e637373|]
+Apr 14 18:21:29 10.71.60.0 u98841435 open "/css/responsive.css" flags READ mode 0666
+Apr 14 18:21:29 10.71.60.0 u98841435 close "/css/responsive.css" bytes read 2420 written 0
+Apr 14 18:21:29 10.71.60.0 u98841435 [10.71.60.0|get|0|2420|0|0|0|2f6373732f726573706f6e736976652e637373|]
+Apr 14 18:21:29 10.71.60.0 u98841435 open "/css/bootstrap.min.css" flags READ mode 0666
+Apr 14 18:21:29 10.71.60.0 u98841435 close "/css/bootstrap.min.css" bytes read 122540 written 0
+Apr 14 18:21:29 10.71.60.0 u98841435 [10.71.60.0|get|0|122540|0|0|0|2f6373732f626f6f7473747261702e6d696e2e637373|]
+Apr 14 18:21:29 10.71.60.0 u98841435 open "/fonts/elegant-theme-line.eot" flags READ mode 0666
+Apr 14 18:21:30 10.71.60.0 u98841435 close "/fonts/elegant-theme-line.eot" bytes read 47260 written 0
+Apr 14 18:21:30 10.71.60.0 u98841435 [10.71.60.0|get|1|47260|0|0|0|2f666f6e74732f656c6567616e742d7468656d652d6c696e652e656f74|]
+Apr 14 18:21:30 10.71.60.0 u98841435 open "/fonts/elegant-theme-line.ttf" flags READ mode 0666
+Apr 14 18:21:30 10.71.60.0 u98841435 close "/fonts/elegant-theme-line.ttf" bytes read 47052 written 0
+Apr 14 18:21:30 10.71.60.0 u98841435 [10.71.60.0|get|0|47052|0|0|0|2f666f6e74732f656c6567616e742d7468656d652d6c696e652e747466|]
+Apr 14 18:21:30 10.71.60.0 u98841435 open "/fonts/elegant-theme-line.woff" flags READ mode 0666
+Apr 14 18:21:30 10.71.60.0 u98841435 close "/fonts/elegant-theme-line.woff" bytes read 47128 written 0
+Apr 14 18:21:30 10.71.60.0 u98841435 [10.71.60.0|get|0|47128|0|0|0|2f666f6e74732f656c6567616e742d7468656d652d6c696e652e776f6666|]
+Apr 14 18:21:30 10.71.60.0 u98841435 open "/fonts/flexslider-icon.eot" flags READ mode 0666
+Apr 14 18:21:30 10.71.60.0 u98841435 close "/fonts/flexslider-icon.eot" bytes read 2082 written 0
+Apr 14 18:21:30 10.71.60.0 u98841435 [10.71.60.0|get|0|2082|0|0|0|2f666f6e74732f666c6578736c696465722d69636f6e2e656f74|]
+Apr 14 18:21:30 10.71.60.0 u98841435 open "/fonts/flexslider-icon.svg" flags READ mode 0666
+Apr 14 18:21:30 10.71.60.0 u98841435 close "/fonts/flexslider-icon.svg" bytes read 2334 written 0
+Apr 14 18:21:30 10.71.60.0 u98841435 [10.71.60.0|get|0|2334|0|0|0|2f666f6e74732f666c6578736c696465722d69636f6e2e737667|]
+Apr 14 18:21:30 10.71.60.0 u98841435 open "/fonts/flexslider-icon.ttf" flags READ mode 0666
+Apr 14 18:21:31 10.71.60.0 u98841435 close "/fonts/flexslider-icon.ttf" bytes read 1892 written 0
+Apr 14 18:21:31 10.71.60.0 u98841435 [10.71.60.0|get|1|1892|0|0|0|2f666f6e74732f666c6578736c696465722d69636f6e2e747466|]
+Apr 14 18:21:31 10.71.60.0 u98841435 open "/fonts/flexslider-icon.woff" flags READ mode 0666
+Apr 14 18:21:31 10.71.60.0 u98841435 close "/fonts/flexslider-icon.woff" bytes read 1268 written 0
+Apr 14 18:21:31 10.71.60.0 u98841435 [10.71.60.0|get|0|1268|0|0|0|2f666f6e74732f666c6578736c696465722d69636f6e2e776f6666|]
+Apr 14 18:21:31 10.71.60.0 u98841435 open "/fonts/glyphicons-halflings-regular.eot" flags READ mode 0666
+Apr 14 18:21:31 10.71.60.0 u98841435 close "/fonts/glyphicons-halflings-regular.eot" bytes read 20127 written 0
+Apr 14 18:21:31 10.71.60.0 u98841435 [10.71.60.0|get|0|20127|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e656f74|]
+Apr 14 18:21:31 10.71.60.0 u98841435 open "/fonts/glyphicons-halflings-regular.ttf" flags READ mode 0666
+Apr 14 18:21:31 10.71.60.0 u98841435 close "/fonts/glyphicons-halflings-regular.ttf" bytes read 45404 written 0
+Apr 14 18:21:31 10.71.60.0 u98841435 [10.71.60.0|get|0|45404|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e747466|]
+Apr 14 18:21:31 10.71.60.0 u98841435 open "/fonts/glyphicons-halflings-regular.woff" flags READ mode 0666
+Apr 14 18:21:31 10.71.60.0 u98841435 close "/fonts/glyphicons-halflings-regular.woff" bytes read 23424 written 0
+Apr 14 18:21:31 10.71.60.0 u98841435 [10.71.60.0|get|0|23424|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e776f6666|]
+Apr 14 18:21:31 10.71.60.0 u98841435 open "/fonts/glyphicons-halflings-regular.woff2" flags READ mode 0666
+Apr 14 18:21:31 10.71.60.0 u98841435 close "/fonts/glyphicons-halflings-regular.woff2" bytes read 18028 written 0
+Apr 14 18:21:31 10.71.60.0 u98841435 [10.71.60.0|get|0|18028|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e776f666632|]
+Apr 14 18:21:31 10.71.60.0 u98841435 open "/fonts/elegant-theme-line.svg" flags READ mode 0666
+Apr 14 18:21:32 10.71.60.0 u98841435 close "/fonts/elegant-theme-line.svg" bytes read 162661 written 0
+Apr 14 18:21:32 10.71.60.0 u98841435 [10.71.60.0|get|1|162661|0|0|0|2f666f6e74732f656c6567616e742d7468656d652d6c696e652e737667|]
+Apr 14 18:21:32 10.71.60.0 u98841435 open "/fonts/glyphicons-halflings-regular.svg" flags READ mode 0666
+Apr 14 18:21:32 10.71.60.0 u98841435 close "/fonts/glyphicons-halflings-regular.svg" bytes read 108738 written 0
+Apr 14 18:21:32 10.71.60.0 u98841435 [10.71.60.0|get|0|108738|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e737667|]
+Apr 14 18:21:32 10.71.60.0 u98841435 open "/images/blank.gif" flags READ mode 0666
+Apr 14 18:21:32 10.71.60.0 u98841435 close "/images/blank.gif" bytes read 43 written 0
+Apr 14 18:21:32 10.71.60.0 u98841435 [10.71.60.0|get|0|43|0|0|0|2f696d616765732f626c616e6b2e676966|]
+Apr 14 18:21:32 10.71.60.0 u98841435 open "/images/fancybox_loading.gif" flags READ mode 0666
+Apr 14 18:21:32 10.71.60.0 u98841435 close "/images/fancybox_loading.gif" bytes read 6567 written 0
+Apr 14 18:21:32 10.71.60.0 u98841435 [10.71.60.0|get|0|6567|0|0|0|2f696d616765732f66616e6379626f785f6c6f6164696e672e676966|]
+Apr 14 18:21:32 10.71.60.0 u98841435 open "/images/fancybox_loading@2x.gif" flags READ mode 0666
+Apr 14 18:21:32 10.71.60.0 u98841435 close "/images/fancybox_loading@2x.gif" bytes read 13984 written 0
+Apr 14 18:21:32 10.71.60.0 u98841435 [10.71.60.0|get|0|13984|0|0|0|2f696d616765732f66616e6379626f785f6c6f6164696e674032782e676966|]
+Apr 14 18:21:32 10.71.60.0 u98841435 open "/images/fancybox_overlay.png" flags READ mode 0666
+Apr 14 18:21:33 10.71.60.0 u98841435 close "/images/fancybox_overlay.png" bytes read 1003 written 0
+Apr 14 18:21:33 10.71.60.0 u98841435 [10.71.60.0|get|1|1003|0|0|0|2f696d616765732f66616e6379626f785f6f7665726c61792e706e67|]
+Apr 14 18:21:33 10.71.60.0 u98841435 open "/images/fancybox_sprite.png" flags READ mode 0666
+Apr 14 18:21:33 10.71.60.0 u98841435 close "/images/fancybox_sprite.png" bytes read 1362 written 0
+Apr 14 18:21:33 10.71.60.0 u98841435 [10.71.60.0|get|0|1362|0|0|0|2f696d616765732f66616e6379626f785f7370726974652e706e67|]
+Apr 14 18:21:33 10.71.60.0 u98841435 open "/images/fancybox_sprite@2x.png" flags READ mode 0666
+Apr 14 18:21:33 10.71.60.0 u98841435 close "/images/fancybox_sprite@2x.png" bytes read 6553 written 0
+Apr 14 18:21:33 10.71.60.0 u98841435 [10.71.60.0|get|0|6553|0|0|0|2f696d616765732f66616e6379626f785f7370726974654032782e706e67|]
+Apr 14 18:21:33 10.71.60.0 u98841435 open "/images/profile-pic.jpg" flags READ mode 0666
+Apr 14 18:21:33 10.71.60.0 u98841435 close "/images/profile-pic.jpg" bytes read 1042968 written 0
+Apr 14 18:21:33 10.71.60.0 u98841435 [10.71.60.0|get|0|1042968|0|0|0|2f696d616765732f70726f66696c652d7069632e6a7067|]
+Apr 14 18:21:33 10.71.60.0 u98841435 open "/images/profile-pic2.jpg" flags READ mode 0666
+Apr 14 18:21:33 10.71.60.0 u98841435 close "/images/profile-pic2.jpg" bytes read 152712 written 0
+Apr 14 18:21:33 10.71.60.0 u98841435 [10.71.60.0|get|0|152712|0|0|0|2f696d616765732f70726f66696c652d706963322e6a7067|]
+Apr 14 18:21:33 10.71.60.0 u98841435 open "/images/profile-pic3.jpg" flags READ mode 0666
+Apr 14 18:21:34 10.71.60.0 u98841435 close "/images/profile-pic3.jpg" bytes read 2007534 written 0
+Apr 14 18:21:34 10.71.60.0 u98841435 [10.71.60.0|get|1|2007534|0|0|0|2f696d616765732f70726f66696c652d706963332e6a7067|]
+Apr 14 18:21:34 10.71.60.0 u98841435 open "/images/PXL_20210211_170946362.PORTRAIT.jpg" flags READ mode 0666
+Apr 14 18:21:34 10.71.60.0 u98841435 close "/images/PXL_20210211_170946362.PORTRAIT.jpg" bytes read 3481083 written 0
+Apr 14 18:21:34 10.71.60.0 u98841435 [10.71.60.0|get|0|3481083|0|0|0|2f696d616765732f50584c5f32303231303231315f3137303934363336322e504f5254524149542e6a7067|]
+Apr 14 18:21:34 10.71.60.0 u98841435 open "/js/bootstrap.min.js" flags READ mode 0666
+Apr 14 18:21:34 10.71.60.0 u98841435 close "/js/bootstrap.min.js" bytes read 36816 written 0
+Apr 14 18:21:34 10.71.60.0 u98841435 [10.71.60.0|get|0|36816|0|0|0|2f6a732f626f6f7473747261702e6d696e2e6a73|]
+Apr 14 18:21:34 10.71.60.0 u98841435 open "/js/jquery.contact.js" flags READ mode 0666
+Apr 14 18:21:34 10.71.60.0 u98841435 close "/js/jquery.contact.js" bytes read 780 written 0
+Apr 14 18:21:34 10.71.60.0 u98841435 [10.71.60.0|get|0|780|0|0|0|2f6a732f6a71756572792e636f6e746163742e6a73|]
+Apr 14 18:21:34 10.71.60.0 u98841435 open "/js/jquery.fancybox.pack.js" flags READ mode 0666
+Apr 14 18:21:35 10.71.60.0 u98841435 close "/js/jquery.fancybox.pack.js" bytes read 23135 written 0
+Apr 14 18:21:35 10.71.60.0 u98841435 [10.71.60.0|get|1|23135|0|0|0|2f6a732f6a71756572792e66616e6379626f782e7061636b2e6a73|]
+Apr 14 18:21:35 10.71.60.0 u98841435 open "/js/jquery.min.js" flags READ mode 0666
+Apr 14 18:21:35 10.71.60.0 u98841435 close "/js/jquery.min.js" bytes read 96661 written 0
+Apr 14 18:21:35 10.71.60.0 u98841435 [10.71.60.0|get|0|96661|0|0|0|2f6a732f6a71756572792e6d696e2e6a73|]
+Apr 14 18:21:35 10.71.60.0 u98841435 open "/js/jquery.waypoints.min.js" flags READ mode 0666
+Apr 14 18:21:35 10.71.60.0 u98841435 close "/js/jquery.waypoints.min.js" bytes read 8787 written 0
+Apr 14 18:21:35 10.71.60.0 u98841435 [10.71.60.0|get|0|8787|0|0|0|2f6a732f6a71756572792e776179706f696e74732e6d696e2e6a73|]
+Apr 14 18:21:35 10.71.60.0 u98841435 open "/js/main.js" flags READ mode 0666
+Apr 14 18:21:35 10.71.60.0 u98841435 close "/js/main.js" bytes read 1513 written 0
+Apr 14 18:21:35 10.71.60.0 u98841435 [10.71.60.0|get|0|1513|0|0|0|2f6a732f6d61696e2e6a73|]
+Apr 14 18:21:35 10.71.60.0 u98841435 open "/js/modernizr.js" flags READ mode 0666
+Apr 14 18:21:35 10.71.60.0 u98841435 close "/js/modernizr.js" bytes read 51351 written 0
+Apr 14 18:21:35 10.71.60.0 u98841435 [10.71.60.0|get|0|51351|0|0|0|2f6a732f6d6f6465726e697a722e6a73|]
+Apr 14 18:21:35 10.71.60.0 u98841435 open "/js/retina.min.js" flags READ mode 0666
+Apr 14 18:21:35 10.71.60.0 u98841435 close "/js/retina.min.js" bytes read 2575 written 0
+Apr 14 18:21:35 10.71.60.0 u98841435 [10.71.60.0|get|0|2575|0|0|0|2f6a732f726574696e612e6d696e2e6a73|]
+Apr 14 18:21:36 10.71.60.0 u98841435 open "/logs/traffic.html/.htaccess" flags READ mode 0666
+Apr 14 18:21:36 10.71.60.0 u98841435 close "/logs/traffic.html/.htaccess" bytes read 23 written 0
+Apr 14 18:21:36 10.71.60.0 u98841435 [10.71.60.0|get|0|23|0|0|0|2f6c6f67732f747261666669632e68746d6c2f2e6874616363657373|]
+Apr 14 18:21:36 10.71.60.0 u98841435 open "/logs/traffic.html/index.html" flags READ mode 0666
+Apr 14 18:21:36 10.71.60.0 u98841435 close "/logs/traffic.html/index.html" bytes read 7509 written 0
+Apr 14 18:21:36 10.71.60.0 u98841435 [10.71.60.0|get|0|7509|0|0|0|2f6c6f67732f747261666669632e68746d6c2f696e6465782e68746d6c|]
+Apr 14 18:21:36 10.71.60.0 u98841435 open "/logs/traffic.html/10.html" flags READ mode 0666
+Apr 14 18:21:36 10.71.60.0 u98841435 close "/logs/traffic.html/10.html" bytes read 11619 written 0
+Apr 14 18:21:36 10.71.60.0 u98841435 [10.71.60.0|get|0|11619|0|0|0|2f6c6f67732f747261666669632e68746d6c2f31302e68746d6c|]
+Apr 14 18:21:36 10.71.60.0 u98841435 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+Apr 14 18:21:36 10.71.60.0 u98841435 sent status Permission denied
+Apr 14 18:21:42 10.71.60.0 u98841435 open "/logs/traffic.html/11.html" flags READ mode 0666
+Apr 14 18:21:42 10.71.60.0 u98841435 close "/logs/traffic.html/11.html" bytes read 11280 written 0
+Apr 14 18:21:42 10.71.60.0 u98841435 [10.71.60.0|get|0|11280|0|0|0|2f6c6f67732f747261666669632e68746d6c2f31312e68746d6c|]
+Apr 14 18:21:42 10.71.60.0 u98841435 open "/logs/traffic.html/12.html" flags READ mode 0666
+Apr 14 18:21:42 10.71.60.0 u98841435 close "/logs/traffic.html/12.html" bytes read 11647 written 0
+Apr 14 18:21:42 10.71.60.0 u98841435 [10.71.60.0|get|0|11647|0|0|0|2f6c6f67732f747261666669632e68746d6c2f31322e68746d6c|]
+Apr 14 18:21:42 10.71.60.0 u98841435 open "/logs/traffic.html/01.html" flags READ mode 0666
+Apr 14 18:21:43 10.71.60.0 u98841435 close "/logs/traffic.html/01.html" bytes read 11635 written 0
+Apr 14 18:21:43 10.71.60.0 u98841435 [10.71.60.0|get|1|11635|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30312e68746d6c|]
+Apr 14 18:21:43 10.71.60.0 u98841435 open "/logs/traffic.html/02.html" flags READ mode 0666
+Apr 14 18:21:43 10.71.60.0 u98841435 close "/logs/traffic.html/02.html" bytes read 10610 written 0
+Apr 14 18:21:43 10.71.60.0 u98841435 [10.71.60.0|get|0|10610|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30322e68746d6c|]
+Apr 14 18:21:43 10.71.60.0 u98841435 open "/logs/traffic.html/03.html" flags READ mode 0666
+Apr 14 18:21:43 10.71.60.0 u98841435 close "/logs/traffic.html/03.html" bytes read 11645 written 0
+Apr 14 18:21:43 10.71.60.0 u98841435 [10.71.60.0|get|0|11645|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30332e68746d6c|]
+Apr 14 18:21:43 10.71.60.0 u98841435 open "/logs/traffic.html/04.html" flags READ mode 0666
+Apr 14 18:21:43 10.71.60.0 u98841435 close "/logs/traffic.html/04.html" bytes read 5457 written 0
+Apr 14 18:21:43 10.71.60.0 u98841435 [10.71.60.0|get|0|5457|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30342e68746d6c|]
+Apr 14 18:21:43 10.71.60.0 u98841435 open "/logs/traffic.html/05.html" flags READ mode 0666
+Apr 14 18:21:43 10.71.60.0 u98841435 close "/logs/traffic.html/05.html" bytes read 11631 written 0
+Apr 14 18:21:43 10.71.60.0 u98841435 [10.71.60.0|get|0|11631|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30352e68746d6c|]
+Apr 14 18:21:43 10.71.60.0 u98841435 open "/logs/traffic.html/06.html" flags READ mode 0666
+Apr 14 18:21:43 10.71.60.0 u98841435 close "/logs/traffic.html/06.html" bytes read 11300 written 0
+Apr 14 18:21:43 10.71.60.0 u98841435 [10.71.60.0|get|0|11300|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30362e68746d6c|]
+Apr 14 18:21:43 10.71.60.0 u98841435 open "/logs/traffic.html/07.html" flags READ mode 0666
+Apr 14 18:21:44 10.71.60.0 u98841435 close "/logs/traffic.html/07.html" bytes read 11631 written 0
+Apr 14 18:21:44 10.71.60.0 u98841435 [10.71.60.0|get|1|11631|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30372e68746d6c|]
+Apr 14 18:21:44 10.71.60.0 u98841435 open "/logs/traffic.html/08.html" flags READ mode 0666
+Apr 14 18:21:44 10.71.60.0 u98841435 close "/logs/traffic.html/08.html" bytes read 11643 written 0
+Apr 14 18:21:44 10.71.60.0 u98841435 [10.71.60.0|get|0|11643|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30382e68746d6c|]
+Apr 14 18:21:44 10.71.60.0 u98841435 open "/logs/traffic.html/09.html" flags READ mode 0666
+Apr 14 18:21:44 10.71.60.0 u98841435 close "/logs/traffic.html/09.html" bytes read 11276 written 0
+Apr 14 18:21:44 10.71.60.0 u98841435 [10.71.60.0|get|0|11276|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30392e68746d6c|]
+Apr 14 18:21:44 10.71.60.0 u98841435 open "/logs/.htaccess" flags READ mode 0666
+Apr 14 18:21:44 10.71.60.0 u98841435 close "/logs/.htaccess" bytes read 266 written 0
+Apr 14 18:21:44 10.71.60.0 u98841435 [10.71.60.0|get|0|266|0|0|0|2f6c6f67732f2e6874616363657373|]
+Apr 14 18:21:44 10.71.60.0 u98841435 open "/logs/info.pl" flags READ mode 0666
+Apr 14 18:21:44 10.71.60.0 u98841435 close "/logs/info.pl" bytes read 4176 written 0
+Apr 14 18:21:44 10.71.60.0 u98841435 [10.71.60.0|get|0|4176|0|0|0|2f6c6f67732f696e666f2e706c|]
+Apr 14 18:21:44 10.71.60.0 u98841435 open "/logs/info.php5" flags READ mode 0666
+Apr 14 18:21:44 10.71.60.0 u98841435 close "/logs/info.php5" bytes read 21 written 0
+Apr 14 18:21:44 10.71.60.0 u98841435 [10.71.60.0|get|0|21|0|0|0|2f6c6f67732f696e666f2e70687035|]
+Apr 14 18:21:44 10.71.60.0 u98841435 open "/logs/info.py" flags READ mode 0666
+Apr 14 18:21:45 10.71.60.0 u98841435 close "/logs/info.py" bytes read 6384 written 0
+Apr 14 18:21:45 10.71.60.0 u98841435 [10.71.60.0|get|1|6384|0|0|0|2f6c6f67732f696e666f2e7079|]
+Apr 14 18:21:45 10.71.60.0 u98841435 open "/logs/traffic.db" flags READ mode 0666
+Apr 14 18:21:45 10.71.60.0 u98841435 close "/logs/traffic.db" bytes read 45056 written 0
+Apr 14 18:21:45 10.71.60.0 u98841435 [10.71.60.0|get|0|45056|0|0|0|2f6c6f67732f747261666669632e6462|]
+Apr 14 18:21:45 10.71.60.0 u98841435 open "/logs/last_traffic" flags READ mode 0666
+Apr 14 18:21:45 10.71.60.0 u98841435 close "/logs/last_traffic" bytes read 0 written 0
+Apr 14 18:21:45 10.71.60.0 u98841435 [10.71.60.0|get|0|0|0|0|0|2f6c6f67732f6c6173745f74726166666963|]
+Apr 14 18:21:45 10.71.60.0 u98841435 open "/logs/access.log.08.gz" flags READ mode 0666
+Apr 14 18:21:45 10.71.60.0 u98841435 close "/logs/access.log.08.gz" bytes read 6615 written 0
+Apr 14 18:21:45 10.71.60.0 u98841435 [10.71.60.0|get|0|6615|0|0|0|2f6c6f67732f6163636573732e6c6f672e30382e677a|]
+Apr 14 18:21:45 10.71.60.0 u98841435 open "/logs/access.log.11.gz" flags READ mode 0666
+Apr 14 18:21:45 10.71.60.0 u98841435 close "/logs/access.log.11.gz" bytes read 5867 written 0
+Apr 14 18:21:45 10.71.60.0 u98841435 [10.71.60.0|get|0|5867|0|0|0|2f6c6f67732f6163636573732e6c6f672e31312e677a|]
+Apr 14 18:21:45 10.71.60.0 u98841435 open "/logs/access.log.14.1.gz" flags READ mode 0666
+Apr 14 18:21:45 10.71.60.0 u98841435 close "/logs/access.log.14.1.gz" bytes read 1798 written 0
+Apr 14 18:21:45 10.71.60.0 u98841435 [10.71.60.0|get|0|1798|0|0|0|2f6c6f67732f6163636573732e6c6f672e31342e312e677a|]
+Apr 14 18:21:45 10.71.60.0 u98841435 open "/logs/access.log.14.2.gz" flags READ mode 0666
+Apr 14 18:21:46 10.71.60.0 u98841435 close "/logs/access.log.14.2.gz" bytes read 1949 written 0
+Apr 14 18:21:46 10.71.60.0 u98841435 [10.71.60.0|get|1|1949|0|0|0|2f6c6f67732f6163636573732e6c6f672e31342e322e677a|]
+Apr 14 18:21:46 10.71.60.0 u98841435 open "/logs/access.log.14.4.gz" flags READ mode 0666
+Apr 14 18:21:46 10.71.60.0 u98841435 close "/logs/access.log.14.4.gz" bytes read 1711 written 0
+Apr 14 18:21:46 10.71.60.0 u98841435 [10.71.60.0|get|0|1711|0|0|0|2f6c6f67732f6163636573732e6c6f672e31342e342e677a|]
+Apr 14 18:21:46 10.71.60.0 u98841435 open "/logs/access.log.14.7.gz" flags READ mode 0666
+Apr 14 18:21:46 10.71.60.0 u98841435 close "/logs/access.log.14.7.gz" bytes read 1366 written 0
+Apr 14 18:21:46 10.71.60.0 u98841435 [10.71.60.0|get|0|1366|0|0|0|2f6c6f67732f6163636573732e6c6f672e31342e372e677a|]
+Apr 14 18:21:46 10.71.60.0 u98841435 open "/logs/access.log.12.gz" flags READ mode 0666
+Apr 14 18:21:46 10.71.60.0 u98841435 close "/logs/access.log.12.gz" bytes read 6572 written 0
+Apr 14 18:21:46 10.71.60.0 u98841435 [10.71.60.0|get|0|6572|0|0|0|2f6c6f67732f6163636573732e6c6f672e31322e677a|]
+Apr 14 18:21:46 10.71.60.0 u98841435 open "/logs/access.log.14.3.gz" flags READ mode 0666
+Apr 14 18:21:46 10.71.60.0 u98841435 close "/logs/access.log.14.3.gz" bytes read 1472 written 0
+Apr 14 18:21:46 10.71.60.0 u98841435 [10.71.60.0|get|0|1472|0|0|0|2f6c6f67732f6163636573732e6c6f672e31342e332e677a|]
+Apr 14 18:21:46 10.71.60.0 u98841435 open "/logs/access.log.14.5.gz" flags READ mode 0666
+Apr 14 18:21:46 10.71.60.0 u98841435 close "/logs/access.log.14.5.gz" bytes read 1834 written 0
+Apr 14 18:21:46 10.71.60.0 u98841435 [10.71.60.0|get|0|1834|0|0|0|2f6c6f67732f6163636573732e6c6f672e31342e352e677a|]
+Apr 14 18:21:46 10.71.60.0 u98841435 open "/logs/access.log.14.6.gz" flags READ mode 0666
+Apr 14 18:21:46 10.71.60.0 u98841435 close "/logs/access.log.14.6.gz" bytes read 1269 written 0
+Apr 14 18:21:46 10.71.60.0 u98841435 [10.71.60.0|get|0|1269|0|0|0|2f6c6f67732f6163636573732e6c6f672e31342e362e677a|]
+Apr 14 18:21:47 10.71.60.0 u98841435 open "/logs/access.log.10.gz" flags READ mode 0666
+Apr 14 18:21:47 10.71.60.0 u98841435 close "/logs/access.log.10.gz" bytes read 7328 written 0
+Apr 14 18:21:47 10.71.60.0 u98841435 [10.71.60.0|get|0|7328|0|0|0|2f6c6f67732f6163636573732e6c6f672e31302e677a|]
+Apr 14 18:21:47 10.71.60.0 u98841435 open "/logs/access.log.13.gz" flags READ mode 0666
+Apr 14 18:21:47 10.71.60.0 u98841435 close "/logs/access.log.13.gz" bytes read 5827 written 0
+Apr 14 18:21:47 10.71.60.0 u98841435 [10.71.60.0|get|0|5827|0|0|0|2f6c6f67732f6163636573732e6c6f672e31332e677a|]
+Apr 14 18:21:47 10.71.60.0 u98841435 open "/logs/sftp.log" flags READ mode 0666
